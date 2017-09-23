@@ -1,0 +1,958 @@
+webpackJsonp([1],{
+
+/***/ "../../../../../src async recursive":
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = "../../../../../src async recursive";
+
+/***/ }),
+
+/***/ "../../../../../src/app/app.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/app.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<app-navbar></app-navbar>\n<app-subnav></app-subnav>\n<app-main-nav></app-main-nav>\n<app-nav3></app-nav3>\n<app-nav4></app-nav4>\n<app-artists></app-artists>\n<app-artist2></app-artist2>\n<app-theshop></app-theshop>\n\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/app.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var AppComponent = (function () {
+    function AppComponent() {
+        this.title = 'app';
+    }
+    return AppComponent;
+}());
+AppComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-root',
+        template: __webpack_require__("../../../../../src/app/app.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/app.component.css")]
+    })
+], AppComponent);
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/app.module.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__("../../../platform-browser/@angular/platform-browser.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navbar_navbar_component__ = __webpack_require__("../../../../../src/app/navbar/navbar.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__subnav_subnav_component__ = __webpack_require__("../../../../../src/app/subnav/subnav.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__main_nav_main_nav_component__ = __webpack_require__("../../../../../src/app/main-nav/main-nav.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__nav3_nav3_component__ = __webpack_require__("../../../../../src/app/nav3/nav3.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__nav4_nav4_component__ = __webpack_require__("../../../../../src/app/nav4/nav4.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ngx_bootstrap__ = __webpack_require__("../../../../ngx-bootstrap/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ngx_siema__ = __webpack_require__("../../../../ngx-siema/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_ng2_carouselamos__ = __webpack_require__("../../../../ng2-carouselamos/index.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__artists_artists_component__ = __webpack_require__("../../../../../src/app/artists/artists.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__artist2_artist2_component__ = __webpack_require__("../../../../../src/app/artist2/artist2.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__theshop_theshop_component__ = __webpack_require__("../../../../../src/app/theshop/theshop.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__angular_platform_browser_animations__ = __webpack_require__("../../../platform-browser/@angular/platform-browser/animations.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__angular_material__ = __webpack_require__("../../../material/@angular/material.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_primeng_primeng__ = __webpack_require__("../../../../primeng/primeng.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_primeng_primeng___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_17_primeng_primeng__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    return AppModule;
+}());
+AppModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_2__app_component__["a" /* AppComponent */],
+            __WEBPACK_IMPORTED_MODULE_3__navbar_navbar_component__["a" /* NavbarComponent */],
+            __WEBPACK_IMPORTED_MODULE_4__subnav_subnav_component__["a" /* SubnavComponent */],
+            __WEBPACK_IMPORTED_MODULE_5__main_nav_main_nav_component__["a" /* MainNavComponent */],
+            __WEBPACK_IMPORTED_MODULE_6__nav3_nav3_component__["a" /* Nav3Component */],
+            __WEBPACK_IMPORTED_MODULE_7__nav4_nav4_component__["a" /* Nav4Component */],
+            __WEBPACK_IMPORTED_MODULE_12__artists_artists_component__["a" /* ArtistsComponent */],
+            __WEBPACK_IMPORTED_MODULE_13__artist2_artist2_component__["a" /* Artist2Component */],
+            __WEBPACK_IMPORTED_MODULE_14__theshop_theshop_component__["a" /* TheshopComponent */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["BrowserModule"],
+            __WEBPACK_IMPORTED_MODULE_8_ngx_bootstrap__["a" /* AlertModule */].forRoot(),
+            __WEBPACK_IMPORTED_MODULE_8_ngx_bootstrap__["b" /* CarouselModule */].forRoot(),
+            __WEBPACK_IMPORTED_MODULE_9__angular_forms__["FormsModule"],
+            __WEBPACK_IMPORTED_MODULE_10_ngx_siema__["a" /* NgxSiemaModule */].forRoot(),
+            __WEBPACK_IMPORTED_MODULE_11_ng2_carouselamos__["a" /* Ng2CarouselamosModule */],
+            __WEBPACK_IMPORTED_MODULE_15__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
+            __WEBPACK_IMPORTED_MODULE_16__angular_material__["a" /* MdButtonModule */],
+            __WEBPACK_IMPORTED_MODULE_17_primeng_primeng__["GalleriaModule"],
+        ],
+        providers: [],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_2__app_component__["a" /* AppComponent */]]
+    })
+], AppModule);
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/artist2/artist2.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".artistNav {\r\n  height: 500px;\r\n  background-color: white  ;\r\n  padding-top: 275px;\r\n;\r\n  /*padding-top: 100px;*/\r\n}\r\n\r\n.headshot {\r\n  float: left;\r\n  padding-top: 15px;\r\n  padding-right: 120px;\r\n}\r\n\r\n.artisthead {\r\n  padding-left: 500px;\r\n  padding-top: 50px;\r\n}\r\n\r\n.artisthead2 {\r\n  padding-left: 465px;\r\n  padding-top: 0px;\r\n}\r\n\r\n.artistText {\r\n  padding: 25px;\r\n  font-family: futura;\r\n  font-size: 16px;\r\n  /*font-weight: bold;*/\r\n}\r\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/artist2/artist2.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div id=\"oz\" class=\"artistNav\">\n  <div>\n    <img class=\"headshot\" src=\"assets/img/Headshotmale.png\">\n  </div>\n  <!--<div class=\"artisthead\" style=\"font-family: futura; font-size: 50px;\">-->\n    <!--Artist-->\n  <!--</div>-->\n  <div class=\"artisthead2\" style=\"font-family: james; font-size: 150px;\">\n    Oz\n  </div>\n  <div class=\"artistText\">\n    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/artist2/artist2.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Artist2Component; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Artist2Component = (function () {
+    function Artist2Component() {
+    }
+    Artist2Component.prototype.ngOnInit = function () {
+    };
+    return Artist2Component;
+}());
+Artist2Component = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-artist2',
+        template: __webpack_require__("../../../../../src/app/artist2/artist2.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/artist2/artist2.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], Artist2Component);
+
+//# sourceMappingURL=artist2.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/artists/artists.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".artistNav {\r\n  height: 500px;\r\n  background-color: white;\r\n  /*padding-top: 100px;*/\r\n}\r\n\r\n.headshot {\r\n  float: right;\r\n  padding-top: 15px;\r\n  padding-right: 120px;\r\n}\r\n\r\n.artisthead {\r\n  padding-left: 500px;\r\n  padding-top: 50px;\r\n}\r\n\r\n.artisthead2 {\r\n  padding-left: 465px;\r\n  padding-top: 0px;\r\n}\r\n\r\n.artistText {\r\n  padding: 25px;\r\n  font-family: futura;\r\n  font-size: 16px;\r\n  /*font-weight: bold;*/\r\n}\r\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/artists/artists.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div id=\"cassie\" class=\"artistNav\">\n  <div>\n    <img class=\"headshot\" src=\"assets/img/girlShot.png\">\n  </div>\n  <!--<div class=\"artisthead\" style=\"font-family: futura; font-size: 50px;\">-->\n    <!--Artist-->\n  <!--</div>-->\n  <div class=\"artisthead2\" style=\"font-family: james; font-size: 150px;\">\n    Cassie\n  </div>\n<div class=\"artistText\">\n  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n</div>\n</div>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/artists/artists.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ArtistsComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ArtistsComponent = (function () {
+    function ArtistsComponent() {
+    }
+    ArtistsComponent.prototype.ngOnInit = function () {
+    };
+    return ArtistsComponent;
+}());
+ArtistsComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-artists',
+        template: __webpack_require__("../../../../../src/app/artists/artists.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/artists/artists.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], ArtistsComponent);
+
+//# sourceMappingURL=artists.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/main-nav/main-nav.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".mainnav {\r\n  height: 500px;\r\n  background-color: #792727 ;\r\n  /*padding-top: 100px;*/\r\n}\r\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/main-nav/main-nav.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/main-nav/main-nav.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MainNavComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var MainNavComponent = (function () {
+    function MainNavComponent() {
+    }
+    MainNavComponent.prototype.ngOnInit = function () {
+    };
+    return MainNavComponent;
+}());
+MainNavComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-main-nav',
+        template: __webpack_require__("../../../../../src/app/main-nav/main-nav.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/main-nav/main-nav.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], MainNavComponent);
+
+//# sourceMappingURL=main-nav.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/nav3/nav3.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/*#container{*/\r\n  /*width:100%;*/\r\n  /*margin: 5em auto;*/\r\n  /*padding: 0;*/\r\n  /*background: #fff;*/\r\n/*}*/\r\n\r\n/*.items {*/\r\n/*}*/\r\n\r\n/*#left, #right {*/\r\n  /*margin: 30px;*/\r\n\r\n/*}*/\r\n\r\n.thirdnav {\r\n  height: 500px;\r\n  background-color: darkred  ;\r\n  /*padding-top: 100px;*/\r\n}\r\n\r\n.mainWelcome {\r\n  width: 50%;\r\n  margin: 0 auto;\r\n  margin-top: 115px;\r\n  font-size: 3em;\r\n  color: white;\r\n  text-align: center;\r\n}\r\n\r\n.studio42Image\r\n{\r\n  margin: 0 auto;\r\n  text-align: center;\r\n  padding-top: 20px;\r\n  max-width: 100%;\r\n}\r\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/nav3/nav3.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!--<div id=\"container\">-->\n  <!--<div ng2-carouselamos class=\"slides-wrapper\"-->\n       <!--[items]=\"items\"-->\n       <!--[width]=\"5000\"-->\n       <!--[$prev]=\"prev\"-->\n       <!--[$next]=\"next\"-->\n       <!--[$item]=\"item\">-->\n  <!--</div>-->\n\n  <!--<ng-template #prev>-->\n    <!--<img src='assets/img/leftArrow.png' id=\"left\">-->\n  <!--</ng-template>-->\n\n  <!--<ng-template #next>-->\n    <!--<img src='assets/img/rightArrow.png' id=\"right\">-->\n  <!--</ng-template>-->\n\n  <!--<ng-template #item let-item let-i=\"index\">-->\n\n    <!--<div class=\"items\" style=\"text-align: center\">-->\n      <!--<h2>This is my {{ item.name }} slide</h2>-->\n    <!--</div>-->\n\n  <!--</ng-template>-->\n<!--</div>-->\n\n\n<div class=\"container-fluid\" style=\"padding:0px\">\n  <div class=\"thirdnav col-lg-12\">\n    <div>\n    <div class=\"mainWelcome\" style=\"font-family: futura\">\n      welcome to studio 42\n      <br>\n      please enjoy the site    </div>\n  </div>\n    <div class=\"studio42Image\"><img src=\"assets/img/studio42Display.png\" style=\"max-width: 100%\"></div>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/nav3/nav3.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Nav3Component; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Nav3Component = (function () {
+    function Nav3Component() {
+        this.items = [];
+        this.items = [
+            { name: 'first' },
+            { name: 'second' },
+            { name: 'third' },
+            { name: 'fourth' },
+            { name: 'fifth' },
+            { name: 'sixth' },
+        ];
+    }
+    return Nav3Component;
+}());
+Nav3Component = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-nav3',
+        template: __webpack_require__("../../../../../src/app/nav3/nav3.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/nav3/nav3.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], Nav3Component);
+
+//# sourceMappingURL=nav3.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/nav4/nav4.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".fournav {\r\n  height: 500px;\r\n  background-color: gainsboro  ;\r\n  /*padding-top: 100px;*/\r\n}\r\n\r\n\r\n.mainWelcomePort {\r\n  width: 50%;\r\n  margin: 0 auto;\r\n  padding-top: 20px;\r\n  font-size: 2em;\r\n  color: black;\r\n  text-align: center;\r\n}\r\n\r\n.subnavPort {\r\n  /*height: 200px;*/\r\n  margin-top: 0px;\r\n  position: relative;\r\n  /*top: 35px;*/\r\n\r\n}\r\n\r\n.navIcon1\r\n {\r\n   display: inline-block;\r\n   margin-bottom: 0px;\r\n   margin-top: 0px;\r\n   padding-right: 0px;\r\n }\r\n.navIcon2\r\n{\r\n  display: inline-block;\r\n  margin-bottom: 0px;\r\n  margin-top: 0px;\r\n  padding-left: 0px;\r\n}\r\n\r\n.iconsNav {\r\n  /*width: 50%;*/\r\n  text-align: center;\r\n  margin-right: 100px;\r\n  /*margin-top: 0px;*/\r\n  /*margin: auto;*/\r\n  /*position: absolute;*/\r\n  /*top: 0; left: 0; bottom: 0; right: 0;*/\r\n  /*position: absolute;*/\r\n  /*top: 50%;*/\r\n  /*left: 50%;*/\r\n  /*margin: -100px 0 0 -150px;*/\r\n\r\n}\r\n\r\n.portInfo\r\n{\r\n  text-align: center;\r\n  font-family: Mathilde;\r\n  font-size: 5em;\r\n  font-weight: 300;\r\n}\r\n\r\n.portData {\r\n  text-align: center;\r\n  vertical-align: middle;\r\n  font-family: futura;\r\n}\r\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/nav4/nav4.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div id=\"portfolios\" class=\"container-fluid fournav\" style=\"padding:0px\">\n  <div class=\"col-lg-12\">\n<div class=\"mainWelcomePort\" style=\"font-family: 'futura'\">\n  PORTFOLIOS\n</div>\n    <br>\n    <br>\n    <!--<div class=\"artistsNav\">-->\n      <!--<div class=\"iconsNav\"><img src=\"assets/img/cassiePortfolio.png\">-->\n        <!--<div>-->\n          <!--<span style=\"font-family: 'Abril Fatface'; font-size: 30px\">Cassie</span>-->\n          <!--<br>-->\n          <!--<span style=\"font-family: 'futura'; font-size: 20px;\">check out some of Cassie's work. </span>-->\n        <!--</div>-->\n      <!--</div>-->\n    <!--</div>-->\n    <!--<div class=\"artistsNav\">-->\n     <!--<div class=\"iconsNav\"><img src=\"assets/img/ozPortfolio.png\"></div>-->\n      <!--<div>-->\n        <!--<span style=\"font-family: 'Abril Fatface'; font-size: 30px\">Oz</span>-->\n        <!--<br>-->\n        <!--<span style=\"font-family: 'futura'; font-size: 20px;\">check out some of Oz's work. </span>-->\n      <!--</div>-->\n    <!--</div>-->\n  <!--</div>-->\n<!--</div>-->\n\n\n    <div class=\"subnavPort\">\n      <div class=\"iconsNav\">\n        <span style=\"font-family: james; font-size: 100px; position: relative; left: 235px; bottom: 60px;\">Cassie</span>\n        <div class=\"navIcon1\"><a href=\"#\"> <img src=\"assets/img/portfolioIconBook.png\"></a></div>\n        <!--<div style=\"font-family: james; font-size: 100px; position: relative; left: 0px; top: 0px;\">Oz-->\n          <!---->\n        <!--</div>-->\n        <span style=\"font-family: james; font-size: 100px; position: relative; left: 205px; bottom: 60px;\">Oz</span>\n        <div class=\"navIcon2\"><a href=\"#\"> <img src=\"assets/img/portfolioIconBook2.png\"></a></div>\n\n      </div>\n    </div>\n    </div>\n  </div>\n\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/nav4/nav4.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Nav4Component; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Nav4Component = (function () {
+    function Nav4Component() {
+    }
+    Nav4Component.prototype.ngOnInit = function () {
+    };
+    return Nav4Component;
+}());
+Nav4Component = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-nav4',
+        template: __webpack_require__("../../../../../src/app/nav4/nav4.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/nav4/nav4.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], Nav4Component);
+
+//# sourceMappingURL=nav4.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/navbar/navbar.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "li {\r\n  color: white;\r\n}\r\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/navbar/navbar.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container-fluid\">\n<nav class=\"navbar navbar-inverse navbar-fixed-top\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n        <span class=\"sr-only\">Toggle navigation</span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"#\"><img src=\"assets/img/studioLogoSm.png\" style=\"position: absolute; top: 10px\"></a>\n    </div>\n    <div id=\"navbar\" class=\"collapse navbar-collapse\">\n      <ul class=\"nav navbar-nav\" style=\"float: right\">\n        <li><a href=\"#\" style=\"color:white\"><span style=\"font-family: futura\">Directions</span></a></li>\n        <li><a href=\"#\" style=\"color:white\"><span style=\"font-family: futura\">Our Loves</span></a></li>\n        <li><a href=\"#\" style=\"color:white\"><span style=\"font-family: futura\">Whatev's</span></a></li>\n      </ul>\n    </div><!--/.nav-collapse -->\n  </div>\n</nav>\n</div>\n\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/navbar/navbar.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NavbarComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var NavbarComponent = (function () {
+    function NavbarComponent() {
+    }
+    NavbarComponent.prototype.ngOnInit = function () {
+    };
+    return NavbarComponent;
+}());
+NavbarComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-navbar',
+        template: __webpack_require__("../../../../../src/app/navbar/navbar.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/navbar/navbar.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], NavbarComponent);
+
+//# sourceMappingURL=navbar.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/subnav/subnav.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".subnav {\r\n  /*height: 200px;*/\r\n  background-color: white;\r\n  /*margin-top: 20px;*/\r\n  position: relative;\r\n  top: 50px;\r\n  padding-bottom: 25px;\r\n\r\n}\r\n\r\n.navIcon\r\n{\r\n  display: inline-block;\r\n  padding-bottom: 30px;\r\n  margin-top: 10px;\r\n  padding-right: 70px;\r\n}\r\n\r\n.iconsNavMain {\r\n  /*width: 50%;*/\r\n  margin: 0 auto;\r\n  text-align: center;\r\n\r\n}\r\n\r\n button:hover {\r\n  background-color: rgba(139, 0, 0, 0.46);\r\n\r\n}\r\n\r\n.iconText {\r\n  padding-top: 5px;\r\n}\r\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/subnav/subnav.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container-fluid\" style=\"padding:0px\">\n<div class=\"subnav col-lg-12\">\n  <div class=\"iconsNavMain\">\n    <div class=\"navIcon\"><a href=\"#cassie\"><!--<button md-fab color=\"primary\"></button>--> <img class=\"imgpic\" src=\"assets/img/skeletonIcon.png\"></a>\n    <p class=\"iconText\" style=\"font-family: futura; font-size: 18px;\">Cassie</p>\n    </div>\n  <div class=\"navIcon\"><a href=\"#oz\"> <!--<button md-fab color=\"primary\"></button>--> <img class=\"imgpic\" src=\"assets/img/skeletonIconMan.png\"></a>\n    <p class=\"iconText\" style=\"font-family: futura; font-size: 18px;\" >Oz</p>\n  </div>\n  <div class=\"navIcon\"><a href=\"#portfolios\"> <!--<button md-fab color=\"primary\"></button>--><img class=\"imgpic\" src=\"assets/img/portfolioIconBookSm.png\"></a>\n    <p class=\"iconText\" style=\"font-family: futura; font-size: 18px;\">Portfolios</p>\n  </div>\n  <div class=\"navIcon\"><a href=\"#theshop\"> <!--<button md-fab color=\"primary\"></button>--> <img class=\"imgpic\" src=\"assets/img/storeIcon.png\"></a>\n    <p class=\"iconText\" style=\"font-family: futura; font-size: 18px;\">The Shop</p>\n  </div>\n    <div class=\"navIcon\"><a href=\"#about\"> <!--<button md-fab color=\"primary\"></button>--> <img class=\"imgpic\" src=\"assets/img/aboutUs.png\"></a>\n      <p class=\"iconText\" style=\"font-family: futura; font-size: 18px;\">About</p>\n    </div>\n    <div class=\"iconText\" class=\"navIcon\"><a href=\"faq\"> <img class=\"imgpic\" src=\"assets/img/faq.png\"> <!--<button md-fab color=\"primary\"></button>--></a>\n      <p style=\"font-family: futura; font-size: 18px;\">FAQ</p>\n    </div>\n  </div>\n</div>\n</div>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/subnav/subnav.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SubnavComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var SubnavComponent = (function () {
+    function SubnavComponent() {
+    }
+    SubnavComponent.prototype.ngOnInit = function () {
+    };
+    return SubnavComponent;
+}());
+SubnavComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-subnav',
+        template: __webpack_require__("../../../../../src/app/subnav/subnav.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/subnav/subnav.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], SubnavComponent);
+
+//# sourceMappingURL=subnav.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/theshop/theshop.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".theShopNav {\r\n  height: 800px;\r\n  background-color: gainsboro  ;\r\n  margin-top: 545px;\r\n}\r\n\r\n.mainWelcomePort {\r\n  width: 50%;\r\n  margin: 0 auto;\r\n  padding-top: 20px;\r\n  font-size: 2em;\r\n  color: black;\r\n  text-align: center;\r\n}\r\n\r\n.artistText {\r\n  padding: 25px;\r\n  font-family: futura;\r\n  font-size: 16px;\r\n  margin-top: 100px;\r\n}\r\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/theshop/theshop.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div id=\"theshop\" class=\"container-fluid theShopNav\" style=\"padding:0px\">\n  <div class=\"col-lg-12\">\n    <div class=\"mainWelcomePort\" style=\"font-family: 'futura'\">\n      The Studio\n    </div>\n    <!--<div>-->\n      <!--<img style=\"display: block; margin: 0 auto;\" src=\"assets/img/storeIconLg.png\">-->\n    <!--</div>-->\n\n\n\n    <div>\n      <img style=\"display: block; margin: 0px auto; margin-top: 80px; padding-left: 30px; float: right\" src=\"assets/img/shop.png\">\n    </div>\n    <div class=\"artistText\">\n      Currently located at\n      1512 7th Ave\n      Beaver Falls, PA 15010\n      Directly across the street from Rite Aid.\n      What are your hours?\n      Tuesday through Thursday we are open from 1 pm until 9ish\n      Friday and Saturday we are open from 2 pm until 11ish.\n      The “ish” is because we try not to start projects during the last hour of the shop being open. Usually we close the service area, but are available for consultations and sales an hour before closing.\n      Sunday and Monday we are closed.\n    </div>\n  </div>\n</div>\n<!--<p-galleria [images]=\"images\" panelWidth=\"500\" panelHeight=\"313\"></p-galleria>-->\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/theshop/theshop.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TheshopComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var TheshopComponent = (function () {
+    function TheshopComponent() {
+    }
+    TheshopComponent.prototype.ngOnInit = function () {
+        // this.images = [];
+        // this.images.push({source:'assets/img/aboutUsIcon.png', alt:'Description for Image 1', title:'Title 1'});
+        // this.images.push({source:'assets/img/ArtistsIcon.png', alt:'Description for Image 2', title:'Title 2'});
+        // this.images.push({source:'assets/img/portfolioIconBookSm.png', alt:'Description for Image 3', title:'Title 3'});
+    };
+    return TheshopComponent;
+}());
+TheshopComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-theshop',
+        template: __webpack_require__("../../../../../src/app/theshop/theshop.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/theshop/theshop.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], TheshopComponent);
+
+//# sourceMappingURL=theshop.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/environments/environment.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
+// The file contents for the current environment will overwrite these during build.
+// The build system defaults to the dev environment which uses `environment.ts`, but if you do
+// `ng build --env=prod` then `environment.prod.ts` will be used instead.
+// The list of which env maps to which file can be found in `.angular-cli.json`.
+// The file contents for the current environment will overwrite these during build.
+var environment = {
+    production: false
+};
+//# sourceMappingURL=environment.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/main.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__("../../../platform-browser-dynamic/@angular/platform-browser-dynamic.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__("../../../../../src/app/app.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__("../../../../../src/environments/environment.ts");
+
+
+
+
+if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["enableProdMode"])();
+}
+__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ "../../../../moment/locale recursive ^\\.\\/.*$":
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": "../../../../moment/locale/af.js",
+	"./af.js": "../../../../moment/locale/af.js",
+	"./ar": "../../../../moment/locale/ar.js",
+	"./ar-dz": "../../../../moment/locale/ar-dz.js",
+	"./ar-dz.js": "../../../../moment/locale/ar-dz.js",
+	"./ar-kw": "../../../../moment/locale/ar-kw.js",
+	"./ar-kw.js": "../../../../moment/locale/ar-kw.js",
+	"./ar-ly": "../../../../moment/locale/ar-ly.js",
+	"./ar-ly.js": "../../../../moment/locale/ar-ly.js",
+	"./ar-ma": "../../../../moment/locale/ar-ma.js",
+	"./ar-ma.js": "../../../../moment/locale/ar-ma.js",
+	"./ar-sa": "../../../../moment/locale/ar-sa.js",
+	"./ar-sa.js": "../../../../moment/locale/ar-sa.js",
+	"./ar-tn": "../../../../moment/locale/ar-tn.js",
+	"./ar-tn.js": "../../../../moment/locale/ar-tn.js",
+	"./ar.js": "../../../../moment/locale/ar.js",
+	"./az": "../../../../moment/locale/az.js",
+	"./az.js": "../../../../moment/locale/az.js",
+	"./be": "../../../../moment/locale/be.js",
+	"./be.js": "../../../../moment/locale/be.js",
+	"./bg": "../../../../moment/locale/bg.js",
+	"./bg.js": "../../../../moment/locale/bg.js",
+	"./bn": "../../../../moment/locale/bn.js",
+	"./bn.js": "../../../../moment/locale/bn.js",
+	"./bo": "../../../../moment/locale/bo.js",
+	"./bo.js": "../../../../moment/locale/bo.js",
+	"./br": "../../../../moment/locale/br.js",
+	"./br.js": "../../../../moment/locale/br.js",
+	"./bs": "../../../../moment/locale/bs.js",
+	"./bs.js": "../../../../moment/locale/bs.js",
+	"./ca": "../../../../moment/locale/ca.js",
+	"./ca.js": "../../../../moment/locale/ca.js",
+	"./cs": "../../../../moment/locale/cs.js",
+	"./cs.js": "../../../../moment/locale/cs.js",
+	"./cv": "../../../../moment/locale/cv.js",
+	"./cv.js": "../../../../moment/locale/cv.js",
+	"./cy": "../../../../moment/locale/cy.js",
+	"./cy.js": "../../../../moment/locale/cy.js",
+	"./da": "../../../../moment/locale/da.js",
+	"./da.js": "../../../../moment/locale/da.js",
+	"./de": "../../../../moment/locale/de.js",
+	"./de-at": "../../../../moment/locale/de-at.js",
+	"./de-at.js": "../../../../moment/locale/de-at.js",
+	"./de-ch": "../../../../moment/locale/de-ch.js",
+	"./de-ch.js": "../../../../moment/locale/de-ch.js",
+	"./de.js": "../../../../moment/locale/de.js",
+	"./dv": "../../../../moment/locale/dv.js",
+	"./dv.js": "../../../../moment/locale/dv.js",
+	"./el": "../../../../moment/locale/el.js",
+	"./el.js": "../../../../moment/locale/el.js",
+	"./en-au": "../../../../moment/locale/en-au.js",
+	"./en-au.js": "../../../../moment/locale/en-au.js",
+	"./en-ca": "../../../../moment/locale/en-ca.js",
+	"./en-ca.js": "../../../../moment/locale/en-ca.js",
+	"./en-gb": "../../../../moment/locale/en-gb.js",
+	"./en-gb.js": "../../../../moment/locale/en-gb.js",
+	"./en-ie": "../../../../moment/locale/en-ie.js",
+	"./en-ie.js": "../../../../moment/locale/en-ie.js",
+	"./en-nz": "../../../../moment/locale/en-nz.js",
+	"./en-nz.js": "../../../../moment/locale/en-nz.js",
+	"./eo": "../../../../moment/locale/eo.js",
+	"./eo.js": "../../../../moment/locale/eo.js",
+	"./es": "../../../../moment/locale/es.js",
+	"./es-do": "../../../../moment/locale/es-do.js",
+	"./es-do.js": "../../../../moment/locale/es-do.js",
+	"./es.js": "../../../../moment/locale/es.js",
+	"./et": "../../../../moment/locale/et.js",
+	"./et.js": "../../../../moment/locale/et.js",
+	"./eu": "../../../../moment/locale/eu.js",
+	"./eu.js": "../../../../moment/locale/eu.js",
+	"./fa": "../../../../moment/locale/fa.js",
+	"./fa.js": "../../../../moment/locale/fa.js",
+	"./fi": "../../../../moment/locale/fi.js",
+	"./fi.js": "../../../../moment/locale/fi.js",
+	"./fo": "../../../../moment/locale/fo.js",
+	"./fo.js": "../../../../moment/locale/fo.js",
+	"./fr": "../../../../moment/locale/fr.js",
+	"./fr-ca": "../../../../moment/locale/fr-ca.js",
+	"./fr-ca.js": "../../../../moment/locale/fr-ca.js",
+	"./fr-ch": "../../../../moment/locale/fr-ch.js",
+	"./fr-ch.js": "../../../../moment/locale/fr-ch.js",
+	"./fr.js": "../../../../moment/locale/fr.js",
+	"./fy": "../../../../moment/locale/fy.js",
+	"./fy.js": "../../../../moment/locale/fy.js",
+	"./gd": "../../../../moment/locale/gd.js",
+	"./gd.js": "../../../../moment/locale/gd.js",
+	"./gl": "../../../../moment/locale/gl.js",
+	"./gl.js": "../../../../moment/locale/gl.js",
+	"./gom-latn": "../../../../moment/locale/gom-latn.js",
+	"./gom-latn.js": "../../../../moment/locale/gom-latn.js",
+	"./he": "../../../../moment/locale/he.js",
+	"./he.js": "../../../../moment/locale/he.js",
+	"./hi": "../../../../moment/locale/hi.js",
+	"./hi.js": "../../../../moment/locale/hi.js",
+	"./hr": "../../../../moment/locale/hr.js",
+	"./hr.js": "../../../../moment/locale/hr.js",
+	"./hu": "../../../../moment/locale/hu.js",
+	"./hu.js": "../../../../moment/locale/hu.js",
+	"./hy-am": "../../../../moment/locale/hy-am.js",
+	"./hy-am.js": "../../../../moment/locale/hy-am.js",
+	"./id": "../../../../moment/locale/id.js",
+	"./id.js": "../../../../moment/locale/id.js",
+	"./is": "../../../../moment/locale/is.js",
+	"./is.js": "../../../../moment/locale/is.js",
+	"./it": "../../../../moment/locale/it.js",
+	"./it.js": "../../../../moment/locale/it.js",
+	"./ja": "../../../../moment/locale/ja.js",
+	"./ja.js": "../../../../moment/locale/ja.js",
+	"./jv": "../../../../moment/locale/jv.js",
+	"./jv.js": "../../../../moment/locale/jv.js",
+	"./ka": "../../../../moment/locale/ka.js",
+	"./ka.js": "../../../../moment/locale/ka.js",
+	"./kk": "../../../../moment/locale/kk.js",
+	"./kk.js": "../../../../moment/locale/kk.js",
+	"./km": "../../../../moment/locale/km.js",
+	"./km.js": "../../../../moment/locale/km.js",
+	"./kn": "../../../../moment/locale/kn.js",
+	"./kn.js": "../../../../moment/locale/kn.js",
+	"./ko": "../../../../moment/locale/ko.js",
+	"./ko.js": "../../../../moment/locale/ko.js",
+	"./ky": "../../../../moment/locale/ky.js",
+	"./ky.js": "../../../../moment/locale/ky.js",
+	"./lb": "../../../../moment/locale/lb.js",
+	"./lb.js": "../../../../moment/locale/lb.js",
+	"./lo": "../../../../moment/locale/lo.js",
+	"./lo.js": "../../../../moment/locale/lo.js",
+	"./lt": "../../../../moment/locale/lt.js",
+	"./lt.js": "../../../../moment/locale/lt.js",
+	"./lv": "../../../../moment/locale/lv.js",
+	"./lv.js": "../../../../moment/locale/lv.js",
+	"./me": "../../../../moment/locale/me.js",
+	"./me.js": "../../../../moment/locale/me.js",
+	"./mi": "../../../../moment/locale/mi.js",
+	"./mi.js": "../../../../moment/locale/mi.js",
+	"./mk": "../../../../moment/locale/mk.js",
+	"./mk.js": "../../../../moment/locale/mk.js",
+	"./ml": "../../../../moment/locale/ml.js",
+	"./ml.js": "../../../../moment/locale/ml.js",
+	"./mr": "../../../../moment/locale/mr.js",
+	"./mr.js": "../../../../moment/locale/mr.js",
+	"./ms": "../../../../moment/locale/ms.js",
+	"./ms-my": "../../../../moment/locale/ms-my.js",
+	"./ms-my.js": "../../../../moment/locale/ms-my.js",
+	"./ms.js": "../../../../moment/locale/ms.js",
+	"./my": "../../../../moment/locale/my.js",
+	"./my.js": "../../../../moment/locale/my.js",
+	"./nb": "../../../../moment/locale/nb.js",
+	"./nb.js": "../../../../moment/locale/nb.js",
+	"./ne": "../../../../moment/locale/ne.js",
+	"./ne.js": "../../../../moment/locale/ne.js",
+	"./nl": "../../../../moment/locale/nl.js",
+	"./nl-be": "../../../../moment/locale/nl-be.js",
+	"./nl-be.js": "../../../../moment/locale/nl-be.js",
+	"./nl.js": "../../../../moment/locale/nl.js",
+	"./nn": "../../../../moment/locale/nn.js",
+	"./nn.js": "../../../../moment/locale/nn.js",
+	"./pa-in": "../../../../moment/locale/pa-in.js",
+	"./pa-in.js": "../../../../moment/locale/pa-in.js",
+	"./pl": "../../../../moment/locale/pl.js",
+	"./pl.js": "../../../../moment/locale/pl.js",
+	"./pt": "../../../../moment/locale/pt.js",
+	"./pt-br": "../../../../moment/locale/pt-br.js",
+	"./pt-br.js": "../../../../moment/locale/pt-br.js",
+	"./pt.js": "../../../../moment/locale/pt.js",
+	"./ro": "../../../../moment/locale/ro.js",
+	"./ro.js": "../../../../moment/locale/ro.js",
+	"./ru": "../../../../moment/locale/ru.js",
+	"./ru.js": "../../../../moment/locale/ru.js",
+	"./sd": "../../../../moment/locale/sd.js",
+	"./sd.js": "../../../../moment/locale/sd.js",
+	"./se": "../../../../moment/locale/se.js",
+	"./se.js": "../../../../moment/locale/se.js",
+	"./si": "../../../../moment/locale/si.js",
+	"./si.js": "../../../../moment/locale/si.js",
+	"./sk": "../../../../moment/locale/sk.js",
+	"./sk.js": "../../../../moment/locale/sk.js",
+	"./sl": "../../../../moment/locale/sl.js",
+	"./sl.js": "../../../../moment/locale/sl.js",
+	"./sq": "../../../../moment/locale/sq.js",
+	"./sq.js": "../../../../moment/locale/sq.js",
+	"./sr": "../../../../moment/locale/sr.js",
+	"./sr-cyrl": "../../../../moment/locale/sr-cyrl.js",
+	"./sr-cyrl.js": "../../../../moment/locale/sr-cyrl.js",
+	"./sr.js": "../../../../moment/locale/sr.js",
+	"./ss": "../../../../moment/locale/ss.js",
+	"./ss.js": "../../../../moment/locale/ss.js",
+	"./sv": "../../../../moment/locale/sv.js",
+	"./sv.js": "../../../../moment/locale/sv.js",
+	"./sw": "../../../../moment/locale/sw.js",
+	"./sw.js": "../../../../moment/locale/sw.js",
+	"./ta": "../../../../moment/locale/ta.js",
+	"./ta.js": "../../../../moment/locale/ta.js",
+	"./te": "../../../../moment/locale/te.js",
+	"./te.js": "../../../../moment/locale/te.js",
+	"./tet": "../../../../moment/locale/tet.js",
+	"./tet.js": "../../../../moment/locale/tet.js",
+	"./th": "../../../../moment/locale/th.js",
+	"./th.js": "../../../../moment/locale/th.js",
+	"./tl-ph": "../../../../moment/locale/tl-ph.js",
+	"./tl-ph.js": "../../../../moment/locale/tl-ph.js",
+	"./tlh": "../../../../moment/locale/tlh.js",
+	"./tlh.js": "../../../../moment/locale/tlh.js",
+	"./tr": "../../../../moment/locale/tr.js",
+	"./tr.js": "../../../../moment/locale/tr.js",
+	"./tzl": "../../../../moment/locale/tzl.js",
+	"./tzl.js": "../../../../moment/locale/tzl.js",
+	"./tzm": "../../../../moment/locale/tzm.js",
+	"./tzm-latn": "../../../../moment/locale/tzm-latn.js",
+	"./tzm-latn.js": "../../../../moment/locale/tzm-latn.js",
+	"./tzm.js": "../../../../moment/locale/tzm.js",
+	"./uk": "../../../../moment/locale/uk.js",
+	"./uk.js": "../../../../moment/locale/uk.js",
+	"./ur": "../../../../moment/locale/ur.js",
+	"./ur.js": "../../../../moment/locale/ur.js",
+	"./uz": "../../../../moment/locale/uz.js",
+	"./uz-latn": "../../../../moment/locale/uz-latn.js",
+	"./uz-latn.js": "../../../../moment/locale/uz-latn.js",
+	"./uz.js": "../../../../moment/locale/uz.js",
+	"./vi": "../../../../moment/locale/vi.js",
+	"./vi.js": "../../../../moment/locale/vi.js",
+	"./x-pseudo": "../../../../moment/locale/x-pseudo.js",
+	"./x-pseudo.js": "../../../../moment/locale/x-pseudo.js",
+	"./yo": "../../../../moment/locale/yo.js",
+	"./yo.js": "../../../../moment/locale/yo.js",
+	"./zh-cn": "../../../../moment/locale/zh-cn.js",
+	"./zh-cn.js": "../../../../moment/locale/zh-cn.js",
+	"./zh-hk": "../../../../moment/locale/zh-hk.js",
+	"./zh-hk.js": "../../../../moment/locale/zh-hk.js",
+	"./zh-tw": "../../../../moment/locale/zh-tw.js",
+	"./zh-tw.js": "../../../../moment/locale/zh-tw.js"
+};
+function webpackContext(req) {
+	return __webpack_require__(webpackContextResolve(req));
+};
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) // check for number or string
+		throw new Error("Cannot find module '" + req + "'.");
+	return id;
+};
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "../../../../moment/locale recursive ^\\.\\/.*$";
+
+/***/ }),
+
+/***/ 0:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("../../../../../src/main.ts");
+
+
+/***/ })
+
+},[0]);
+//# sourceMappingURL=main.bundle.js.map
