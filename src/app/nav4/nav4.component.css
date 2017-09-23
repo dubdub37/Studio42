@@ -1,0 +1,67 @@
+.fournav {
+  height: 500px;
+  background-color: gainsboro  ;
+  /*padding-top: 100px;*/
+}
+
+
+.mainWelcomePort {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 2em;
+  color: black;
+  text-align: center;
+}
+
+.subnavPort {
+  /*height: 200px;*/
+  margin-top: 0px;
+  position: relative;
+  /*top: 35px;*/
+
+}
+
+.navIcon1
+ {
+   display: inline-block;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   padding-right: 0px;
+ }
+.navIcon2
+{
+  display: inline-block;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-left: 0px;
+}
+
+.iconsNav {
+  /*width: 50%;*/
+  text-align: center;
+  margin-right: 100px;
+  /*margin-top: 0px;*/
+  /*margin: auto;*/
+  /*position: absolute;*/
+  /*top: 0; left: 0; bottom: 0; right: 0;*/
+  /*position: absolute;*/
+  /*top: 50%;*/
+  /*left: 50%;*/
+  /*margin: -100px 0 0 -150px;*/
+
+}
+
+.portInfo
+{
+  text-align: center;
+  font-family: Mathilde;
+  font-size: 5em;
+  font-weight: 300;
+}
+
+.portData {
+  text-align: center;
+  vertical-align: middle;
+  font-family: futura;
+}

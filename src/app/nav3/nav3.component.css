@@ -1,0 +1,37 @@
+/*#container{*/
+  /*width:100%;*/
+  /*margin: 5em auto;*/
+  /*padding: 0;*/
+  /*background: #fff;*/
+/*}*/
+
+/*.items {*/
+/*}*/
+
+/*#left, #right {*/
+  /*margin: 30px;*/
+
+/*}*/
+
+.thirdnav {
+  height: 500px;
+  background-color: darkred  ;
+  /*padding-top: 100px;*/
+}
+
+.mainWelcome {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 115px;
+  font-size: 3em;
+  color: white;
+  text-align: center;
+}
+
+.studio42Image
+{
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+  max-width: 100%;
+}

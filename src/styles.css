@@ -1,0 +1,160 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/*Fonts*/
+
+@font-face {
+  font-family: futura;
+  src: url(assets/fonts/FuturaStd-Bold.otf);
+
+}
+
+@font-face {
+  font-family: Mathilde;
+  src: url(assets/fonts/mathilde.otf);
+
+}
+
+/*@font-face {*/
+  /*font-family: mincho;*/
+  /*src: url(assets/fonts/MSMINCHO.TTF);*/
+/*}*/
+
+@font-face {
+  font-family: adobe;
+  src: url(assets/fonts/AdobeDevanagari-Regular.otf);
+}
+
+@font-face {
+  font-family: Abril Fatface;
+  src: url(assets/fonts/AbrilFatface-Regular.ttf);
+}
+
+@font-face {
+  font-family: james;
+  src: url(assets/fonts/James_Fajardo.ttf);
+}
+
+/*@font-face {*/
+  /*font-family: MSMincho;*/
+  /*src: url(assets/fonts/MSMINCHO.TTF);*/
+
+/*}*/
+/*@font-face {*/
+  /*font-family: header2;*/
+  /*src: url(../assets/fonts/GOUDOSI_1.TTF);*/
+/*}*/
+
+/*@font-face {*/
+  /*font-family: header3;*/
+  /*src: url(../assets/fonts/GOUDOSB_1.TTF);*/
+/*}*/
+
+/*@font-face {*/
+  /*font-family: header4;*/
+  /*src: url(../assets/fonts/flamenco-Light.ttf);*/
+/*}*/
+
+/*@font-face {*/
+  /*font-family: header5;*/
+  /*src: url(../assets/fonts/Flamenco-Regular.ttf);*/
+/*}*/
+
+/*@font-face {*/
+  /*font-family: arvo;*/
+  /*src: url(../assets/fonts/Arvo-Regular.ttf);*/
+/*}*/
+
+/*@font-face {*/
+  /*font-family: comfortaa;*/
+  /*src: url(../assets/fonts/comfortaa-Regular.ttf);*/
+/*}*/
+
+/*@font-face {*/
+  /*font-family: luc;*/
+  /*src: url(../assets/fonts/lucemita-font-FFP.otf);*/
+/*}*/
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+ .mainWelcome {
+   padding-top: 20px !important;
+   font-size: 15px !important;
+ }
+  .navIcon {
+    padding-bottom: 0px !important;
+    margin-top: 0px !important;
+    display: none;
+  }
+
+
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
+.mainWelcome {
+  padding-top: 50px !important;
+}
+}
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {
+.mainWelcome {
+  font-size: 35px !important;
+}
+  .imgpic {
+    width: 75% !important;
+    height: 75% !important;
+  }
+
+  .artistText {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 1068px) {
+  .iconsNavMain {
+    width: fit-content !important;
+  }
+  .imgpic {
+    width: 75% !important;
+    height: 75% !important;
+  }
+  .artisthead {
+    padding-left: 300px !important;
+  }
+}
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) {
+  .mainWelcome
+  {
+    margin-top: 0 !important;
+    padding-top: 100px !important;
+  }
+  .thirdnav {
+    height: 500px !important;
+  }
+
+  .mainWelcomePort{
+
+  }
+
+  .subnavPort{
+    margin-top: 0px !important;
+    top: 0px !important;
+  }
+  .fournav {
+   /*height: 800px !important;*/
+  }
+}
+
+@media (max-width: 1228px) {
+.artisthead2 {
+  padding-left: 250px !important;
+}
+  .headshot {
+    padding-right: 0px !important;
+  }
+}
+/*// Extra large devices (large desktops)*/
+/*// No media query since the extra-large breakpoint has no upper bound on its width*/

@@ -1,0 +1,30 @@
+.artistNav {
+  height: 500px;
+  background-color: white  ;
+  padding-top: 275px;
+;
+  /*padding-top: 100px;*/
+}
+
+.headshot {
+  float: left;
+  padding-top: 15px;
+  padding-right: 120px;
+}
+
+.artisthead {
+  padding-left: 500px;
+  padding-top: 50px;
+}
+
+.artisthead2 {
+  padding-left: 465px;
+  padding-top: 0px;
+}
+
+.artistText {
+  padding: 25px;
+  font-family: futura;
+  font-size: 16px;
+  /*font-weight: bold;*/
+}

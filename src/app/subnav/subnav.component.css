@@ -1,0 +1,33 @@
+.subnav {
+  /*height: 200px;*/
+  background-color: white;
+  /*margin-top: 20px;*/
+  position: relative;
+  top: 50px;
+  padding-bottom: 25px;
+
+}
+
+.navIcon
+{
+  display: inline-block;
+  padding-bottom: 30px;
+  margin-top: 10px;
+  padding-right: 70px;
+}
+
+.iconsNavMain {
+  /*width: 50%;*/
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+ button:hover {
+  background-color: rgba(139, 0, 0, 0.46);
+
+}
+
+.iconText {
+  padding-top: 5px;
+}

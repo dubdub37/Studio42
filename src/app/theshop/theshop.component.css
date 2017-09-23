@@ -1,0 +1,21 @@
+.theShopNav {
+  height: 800px;
+  background-color: gainsboro  ;
+  margin-top: 545px;
+}
+
+.mainWelcomePort {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 2em;
+  color: black;
+  text-align: center;
+}
+
+.artistText {
+  padding: 25px;
+  font-family: futura;
+  font-size: 16px;
+  margin-top: 100px;
+}
