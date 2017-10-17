@@ -21,7 +21,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".aboutNav {\r\n  height: 500px;\r\n  background-color: #ececec;\r\n  /*padding-top: 100px;*/\r\n}\r\n\r\n.mainWelcomePort {\r\n  width: 50%;\r\n  margin: 0 auto;\r\n  padding-top: 20px;\r\n  font-size: 2em;\r\n  color: black;\r\n  text-align: center;\r\n  font-family: futura;\r\n}\r\n\r\n.example-card {\r\n  width: 400px;\r\n}\r\n\r\n.example-header-image {\r\n  background-image: url('http://material.angular.io/assets/img/examples/shiba1.jpg');\r\n  background-size: cover;\r\n}\r\n\r\n.example-button-row {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-align: center;\r\n      -ms-flex-align: center;\r\n          align-items: center;\r\n  -ms-flex-pack: distribute;\r\n      justify-content: space-around;\r\n}\r\n\r\n.historyDiv {\r\n  padding-left: 400px;\r\n  margin-top: 40px;\r\n}\r\n\r\n.historyDiv2 {\r\n  padding-left: 100px;\r\n}\r\n\r\n@media only screen and (max-width: 1320px){\r\n\r\n  .historyDiv {\r\n    padding-left: 200px;\r\n  }\r\n\r\n}\r\n\r\n@media only screen and (max-width: 1120px){\r\n\r\n  .historyDiv {\r\n    padding-left: 100px;\r\n  }\r\n\r\n}\r\n\r\n@media only screen and (max-width: 575px) {\r\n  .historyDiv {\r\n    padding-left: 0px;\r\n  }\r\n\r\n  .example-card {\r\n    width: auto;\r\n  }\r\n\r\n  .historyDiv2 {\r\n    padding-left: 0px;\r\n  }\r\n\r\n}\r\n", ""]);
+exports.push([module.i, ".aboutNav {\r\n  height: 500px;\r\n  background-color: #ececec;\r\n  /*padding-top: 100px;*/\r\n}\r\n\r\n.mainWelcomePort {\r\n  width: 50%;\r\n  margin: 0 auto;\r\n  padding-top: 20px;\r\n  font-size: 2em;\r\n  color: black;\r\n  text-align: center;\r\n  font-family: futura;\r\n}\r\n\r\n.example-card {\r\n  width: 400px;\r\n}\r\n\r\n.example-header-image {\r\n  background-image: url('http://material.angular.io/assets/img/examples/shiba1.jpg');\r\n  background-size: cover;\r\n}\r\n\r\n.example-button-row {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-align: center;\r\n      -ms-flex-align: center;\r\n          align-items: center;\r\n  -ms-flex-pack: distribute;\r\n      justify-content: space-around;\r\n}\r\n\r\n.historyDiv {\r\n  padding-left: 400px;\r\n  margin-top: 40px;\r\n}\r\n\r\n.historyDiv2 {\r\n  padding-left: 100px;\r\n}\r\n\r\n/*.hisDivs {*/\r\n  /*position: absolute;*/\r\n  /*left: 50%;*/\r\n  /*transform: translate(-50%, -50%);*/\r\n/*}*/\r\n\r\n@media only screen and (max-width: 1869px){\r\n  .historyDiv {\r\n    padding-left: 500px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1560px){\r\n  .historyDiv {\r\n    padding-left: 400px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1493px){\r\n  .historyDiv {\r\n    padding-left: 300px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1320px){\r\n\r\n  .historyDiv {\r\n    padding-left: 200px;\r\n  }\r\n\r\n}\r\n\r\n@media only screen and (max-width: 1120px){\r\n\r\n  .historyDiv {\r\n    padding-left: 100px;\r\n  }\r\n\r\n}\r\n\r\n@media only screen and (max-width: 575px) {\r\n  .historyDiv {\r\n    padding-left: 0px;\r\n  }\r\n\r\n  .example-card {\r\n    width: auto;\r\n  }\r\n\r\n  .historyDiv2 {\r\n    padding-left: 0px;\r\n  }\r\n\r\n}\r\n", ""]);
 
 // exports
 
@@ -34,7 +34,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/about/about.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"aboutNav\">\n<div class=\"mainWelcomePort\">\n  About Us\n</div>\n  <div class=\"historyDiv\" style=\"display: inline-block;\">\n  <mat-card class=\"example-card\">\n  <img mat-card-image src=\"assets/img/fam.png\" alt=\"Photo of a Shiba Inu\">\n  <mat-card-content>\n    <div style=\"font-family: futura; text-align: center; font-size: 15px;\">..A Brief History</div>\n    <div>\n      <div class=\"button-row\" style=\"text-align: center; padding-top: 10px;\">\n        <button mat-fab style=\"background-color: darkred\"><span style=\"color: white\">Read</span></button>\n      </div>\n    </div>\n  </mat-card-content>\n</mat-card>\n  </div>\n  <div class=\"historyDiv2\" style=\"display: inline-block;\">\n  <mat-card class=\"example-card\">\n    <img mat-card-image src=\"assets/img/imageShp.png\">\n    <mat-card-content>\n     <div style=\"font-family: futura; text-align: center;  font-size: 15px;\">Studio 42</div>\n      <div>\n          <div class=\"button-row\" style=\"text-align: center; padding-top: 10px;\">\n          <button mat-fab style=\"background-color: darkred\"><span style=\"color: white\">Read</span></button>\n        </div>\n      </div>\n    </mat-card-content>\n  </mat-card>\n  </div>\n</div>\n"
+module.exports = "<div id=\"about\" class=\"aboutNav\">\n<div class=\"mainWelcomePort\">\n  About Us\n</div>\n  <div class=\"hisDivs\">\n  <div class=\"historyDiv\" style=\"display: inline-block;\">\n  <mat-card class=\"example-card\">\n  <img mat-card-image src=\"assets/img/fam.png\" alt=\"Photo of a Shiba Inu\">\n  <mat-card-content>\n    <div style=\"font-family: futura; text-align: center; font-size: 15px;\">..A Brief History</div>\n    <div>\n      <div class=\"button-row\" style=\"text-align: center; padding-top: 10px;\">\n        <button mat-fab style=\"background-color: darkred\"><span style=\"color: white\">Read</span></button>\n      </div>\n    </div>\n  </mat-card-content>\n</mat-card>\n  </div>\n  <div class=\"historyDiv2\" style=\"display: inline-block;\">\n  <mat-card class=\"example-card\">\n    <img mat-card-image src=\"assets/img/imageShp.png\">\n    <mat-card-content>\n     <div style=\"font-family: futura; text-align: center;  font-size: 15px;\">Studio 42</div>\n      <div>\n          <div class=\"button-row\" style=\"text-align: center; padding-top: 10px;\">\n          <button mat-fab style=\"background-color: darkred\" (click)=\"openDialog()\"><span style=\"color: white\">Read</span></button>\n        </div>\n      </div>\n    </mat-card-content>\n  </mat-card>\n  </div>\n</div>\n</div>\n"
 
 /***/ }),
 
@@ -43,6 +43,8 @@ module.exports = "<div class=\"aboutNav\">\n<div class=\"mainWelcomePort\">\n  A
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_material__ = __webpack_require__("../../../material/esm5/material.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__thestudioinfo_thestudioinfo_component__ = __webpack_require__("../../../../../src/app/thestudioinfo/thestudioinfo.component.ts");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -54,10 +56,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
+
 var AboutComponent = (function () {
-    function AboutComponent() {
+    function AboutComponent(dialog) {
+        this.dialog = dialog;
     }
     AboutComponent.prototype.ngOnInit = function () {
+    };
+    AboutComponent.prototype.openDialog = function () {
+        this.dialog.open(__WEBPACK_IMPORTED_MODULE_2__thestudioinfo_thestudioinfo_component__["a" /* ThestudioinfoComponent */]);
+    };
+    AboutComponent.prototype.onClick = function () {
+        this.animationClicked = true;
     };
     return AboutComponent;
 }());
@@ -67,9 +78,10 @@ AboutComponent = __decorate([
         template: __webpack_require__("../../../../../src/app/about/about.component.html"),
         styles: [__webpack_require__("../../../../../src/app/about/about.component.css")]
     }),
-    __metadata("design:paramtypes", [])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_material__["d" /* MatDialog */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_material__["d" /* MatDialog */]) === "function" && _a || Object])
 ], AboutComponent);
 
+var _a;
 //# sourceMappingURL=about.component.js.map
 
 /***/ }),
@@ -162,6 +174,7 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__angular_http__ = __webpack_require__("../../../http/@angular/http.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25_ng_gallery__ = __webpack_require__("../../../../ng-gallery/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26_ngx_gallery__ = __webpack_require__("../../../../ngx-gallery/lib/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__thestudioinfo_thestudioinfo_component__ = __webpack_require__("../../../../../src/app/thestudioinfo/thestudioinfo.component.ts");
 /* unused harmony export galleryConfig */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -170,6 +183,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -224,10 +238,12 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_14__theshop_theshop_component__["a" /* TheshopComponent */],
             __WEBPACK_IMPORTED_MODULE_21__port1images_port1images_component__["a" /* Port1imagesComponent */],
             __WEBPACK_IMPORTED_MODULE_22__port2images_port2images_component__["a" /* Port2imagesComponent */],
+            __WEBPACK_IMPORTED_MODULE_27__thestudioinfo_thestudioinfo_component__["a" /* ThestudioinfoComponent */],
         ],
         entryComponents: [
             __WEBPACK_IMPORTED_MODULE_21__port1images_port1images_component__["a" /* Port1imagesComponent */],
             __WEBPACK_IMPORTED_MODULE_22__port2images_port2images_component__["a" /* Port2imagesComponent */],
+            __WEBPACK_IMPORTED_MODULE_27__thestudioinfo_thestudioinfo_component__["a" /* ThestudioinfoComponent */],
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["BrowserModule"],
@@ -402,7 +418,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/faq/faq.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"faqBack\">\n<div class=\"faqImg\">\n  <div class=\"faqText\">\n    Got Questions?\n  </div>\n<img src=\"assets/img/faqLg.png\">\n</div>\n</div>\n"
+module.exports = "<div id=\"faq\" class=\"faqBack\">\n<div class=\"faqImg\">\n  <div class=\"faqText\">\n    Got Questions?\n  </div>\n<img src=\"assets/img/faqLg.png\">\n</div>\n</div>\n"
 
 /***/ }),
 
@@ -585,7 +601,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/nav3/nav3.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!--<div id=\"container\">-->\n  <!--<div ng2-carouselamos class=\"slides-wrapper\"-->\n       <!--[items]=\"items\"-->\n       <!--[width]=\"5000\"-->\n       <!--[$prev]=\"prev\"-->\n       <!--[$next]=\"next\"-->\n       <!--[$item]=\"item\">-->\n  <!--</div>-->\n\n  <!--<ng-template #prev>-->\n    <!--<img src='assets/img/leftArrow.png' id=\"left\">-->\n  <!--</ng-template>-->\n\n  <!--<ng-template #next>-->\n    <!--<img src='assets/img/rightArrow.png' id=\"right\">-->\n  <!--</ng-template>-->\n\n  <!--<ng-template #item let-item let-i=\"index\">-->\n\n    <!--<div class=\"items\" style=\"text-align: center\">-->\n      <!--<h2>This is my {{ item.name }} slide</h2>-->\n    <!--</div>-->\n\n  <!--</ng-template>-->\n<!--</div>-->\n\n\n<div class=\"container-fluid\" style=\"padding:0px\">\n  <div class=\"thirdnav col-lg-12\">\n    <div>\n    <div class=\"mainWelcome\" style=\"font-family: futura\">\n      welcome to studio 42\n      <br>\n      please enjoy the site    </div>\n  </div>\n    <div class=\"studio42Image\"><img src=\"assets/img/studio42Display.png\" style=\"max-width: 100%\"></div>\n  </div>\n</div>\n"
+module.exports = "<!--<div id=\"container\">-->\n  <!--<div ng2-carouselamos class=\"slides-wrapper\"-->\n       <!--[items]=\"items\"-->\n       <!--[width]=\"5000\"-->\n       <!--[$prev]=\"prev\"-->\n       <!--[$next]=\"next\"-->\n       <!--[$item]=\"item\">-->\n  <!--</div>-->\n\n  <!--<ng-template #prev>-->\n    <!--<img src='assets/img/leftArrow.png' id=\"left\">-->\n  <!--</ng-template>-->\n\n  <!--<ng-template #next>-->\n    <!--<img src='assets/img/rightArrow.png' id=\"right\">-->\n  <!--</ng-template>-->\n\n  <!--<ng-template #item let-item let-i=\"index\">-->\n\n    <!--<div class=\"items\" style=\"text-align: center\">-->\n      <!--<h2>This is my {{ item.name }} slide</h2>-->\n    <!--</div>-->\n\n  <!--</ng-template>-->\n<!--</div>-->\n\n\n<div class=\"container-fluid\" style=\"padding:0px\">\n  <div class=\"thirdnav col-lg-12\">\n    <div>\n    <div class=\"mainWelcome\" style=\"font-family: futura\">\n      welcome to studio 42\n      <br>\n      please enjoy the site    </div>\n  </div>\n    <div class=\"studio42Image\"><img class=\"animated bounce\" src=\"assets/img/studio42Display.png\"  style=\"max-width: 100%\"></div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -623,7 +639,7 @@ Nav3Component = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-nav3',
         template: __webpack_require__("../../../../../src/app/nav3/nav3.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/nav3/nav3.component.css")]
+        styles: [__webpack_require__("../../../../../src/app/nav3/nav3.component.css")],
     }),
     __metadata("design:paramtypes", [])
 ], Nav3Component);
@@ -692,6 +708,9 @@ var Nav4Component = (function () {
     Nav4Component.prototype.openDialog = function () {
         this.dialog.open(__WEBPACK_IMPORTED_MODULE_2__port1images_port1images_component__["a" /* Port1imagesComponent */]);
     };
+    Nav4Component.prototype.onClick = function () {
+        this.animationClicked = true;
+    };
     return Nav4Component;
 }());
 Nav4Component = __decorate([
@@ -729,7 +748,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/navbar/navbar.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid\">\n<nav class=\"navbar navbar-inverse navbar-fixed-top\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n        <span class=\"sr-only\">Toggle navigation</span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"#\"><img src=\"assets/img/studioLogoSm.png\" style=\"position: absolute; top: 10px\"></a>\n    </div>\n    <div id=\"navbar\" class=\"collapse navbar-collapse\">\n      <ul class=\"nav navbar-nav floating\">\n        <li><a href=\"#\" style=\"color:white\"><span style=\"font-family: futura\">Directions</span></a></li>\n        <li><a href=\"#\" style=\"color:white\"><span style=\"font-family: futura\">Our Loves</span></a></li>\n        <li><a href=\"#\" style=\"color:white\"><span style=\"font-family: futura\">Whatev's</span></a></li>\n      </ul>\n    </div><!--nav-collapse -->\n  </div>\n</nav>\n</div>\n\n"
+module.exports = "<div class=\"container-fluid\">\n<nav class=\"navbar navbar-inverse navbar-fixed-top\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n        <span class=\"sr-only\">Toggle navigation</span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"#\"><img src=\"assets/img/studioLogoSm.png\" style=\"position: absolute; top: 10px\"></a>\n    </div>\n    <div id=\"navbar\" class=\"collapse navbar-collapse\">\n      <ul class=\"nav navbar-nav floating\">\n        <li><a href=\"#\" style=\"color:white\"><span style=\"font-family: futura\">Contact Us</span></a></li>\n        <li><a href=\"#\" style=\"color:white\"><span style=\"font-family: futura\">Directions</span></a></li>\n        <li><a href=\"#\" style=\"color:white\"><span style=\"font-family: futura\">Our Loves</span></a></li>\n        <li><a href=\"#\" style=\"color:white\"><span style=\"font-family: futura\">Whatev's</span></a></li>\n      </ul>\n    </div><!--nav-collapse -->\n  </div>\n</nav>\n</div>\n\n"
 
 /***/ }),
 
@@ -981,7 +1000,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/subnav/subnav.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid\" style=\"padding:0px\">\n<div class=\"subnav col-lg-12\">\n  <div class=\"iconsNavMain\">\n    <div class=\"navIcon\"><a href=\"#cassie\"><!--<button md-fab color=\"primary\"></button>--> <img class=\"imgpic\" src=\"assets/img/skeletonIcon.png\"></a>\n    <p class=\"iconText\" style=\"font-family: futura; font-size: 18px;\">Cassie</p>\n    </div>\n  <div class=\"navIcon\"><a href=\"#oz\"> <!--<button md-fab color=\"primary\"></button>--> <img class=\"imgpic\" src=\"assets/img/skeletonIconMan.png\"></a>\n    <p class=\"iconText\" style=\"font-family: futura; font-size: 18px;\" >Oz</p>\n  </div>\n  <div class=\"navIcon\"><a href=\"#portfolios\"> <!--<button md-fab color=\"primary\"></button>--><img class=\"imgpic\" src=\"assets/img/portfolioIconBookSm.png\"></a>\n    <p class=\"iconText\" style=\"font-family: futura; font-size: 18px;\">Work</p>\n  </div>\n  <div class=\"navIcon\"><a href=\"#theshop\"> <!--<button md-fab color=\"primary\"></button>--> <img class=\"imgpic\" src=\"assets/img/storeIcon.png\"></a>\n    <p class=\"iconText\" style=\"font-family: futura; font-size: 18px;\">Studio</p>\n  </div>\n    <div class=\"navIcon\"><a href=\"#about\"> <!--<button md-fab color=\"primary\"></button>--> <img class=\"imgpic\" src=\"assets/img/aboutUs.png\"></a>\n      <p class=\"iconText\" style=\"font-family: futura; font-size: 18px;\">About</p>\n    </div>\n    <div class=\"iconText\" class=\"navIcon\"><a href=\"faq\"> <img class=\"imgpic\" src=\"assets/img/faq.png\"> <!--<button md-fab color=\"primary\"></button>--></a>\n      <p style=\"font-family: futura; font-size: 18px;\">FAQ</p>\n    </div>\n  </div>\n</div>\n</div>\n"
+module.exports = "<div class=\"container-fluid\" style=\"padding:0px\">\n<div class=\"subnav col-lg-12\">\n  <div class=\"iconsNavMain\">\n    <div class=\"navIcon animated fadeInLeft\"><a href=\"#cassie\"><!--<button md-fab color=\"primary\"></button>--> <img class=\"imgpic\" src=\"assets/img/skeletonIcon.png\"></a>\n    <p class=\"iconText\" style=\"font-family: futura; font-size: 18px;\">Cassie</p>\n    </div>\n  <div class=\"navIcon animated fadeInLeft\"><a href=\"#oz\"> <!--<button md-fab color=\"primary\"></button>--> <img class=\"imgpic\" src=\"assets/img/skeletonIconMan.png\"></a>\n    <p class=\"iconText\" style=\"font-family: futura; font-size: 18px;\" >Oz</p>\n  </div>\n  <div class=\"navIcon animated fadeInLeft\"><a href=\"#portfolios\"> <!--<button md-fab color=\"primary\"></button>--><img class=\"imgpic\" src=\"assets/img/portfolioIconBookSm.png\"></a>\n    <p class=\"iconText\" style=\"font-family: futura; font-size: 18px;\">Work</p>\n  </div>\n  <div class=\"navIcon animated fadeInLeft\"><a href=\"#theshop\"> <!--<button md-fab color=\"primary\"></button>--> <img class=\"imgpic\" src=\"assets/img/storeIcon.png\"></a>\n    <p class=\"iconText\" style=\"font-family: futura; font-size: 18px;\">Studio</p>\n  </div>\n    <div class=\"navIcon animated fadeInLeft\"><a href=\"#about\"> <!--<button md-fab color=\"primary\"></button>--> <img class=\"imgpic\" src=\"assets/img/aboutUs.png\"></a>\n      <p class=\"iconText\" style=\"font-family: futura; font-size: 18px;\">About</p>\n    </div>\n    <div class=\"iconText \" class=\"navIcon animated fadeInLeft\"><a href=\"#faq\"> <img class=\"imgpic\" src=\"assets/img/faq.png\"> <!--<button md-fab color=\"primary\"></button>--></a>\n      <p style=\"font-family: futura; font-size: 18px;\">FAQ</p>\n    </div>\n  </div>\n</div>\n</div>\n"
 
 /***/ }),
 
@@ -1083,6 +1102,67 @@ TheshopComponent = __decorate([
 ], TheshopComponent);
 
 //# sourceMappingURL=theshop.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/thestudioinfo/thestudioinfo.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/thestudioinfo/thestudioinfo.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div style=\"font-family: futura; text-align: center; font-size: 15px;\">\n<p>\n  <span style=\"font-size: 25px;\">Studio 42</span>\n  <br>\n  <br>\n  is a custom street shop tattoo boutique located in Beaver Falls, PA.\n  <br>\n  We are home to two full time tattoo artists, Cassie and Oz, and Oz is also a master piercer.\n  <br>\n\n  Appointments are preferred, but walk-ins are welcomed. Call the shop for availability.\n  <br>\n\n  Click the Artist Gallery link to the left to browse our portfolios.\n  <br>\n\n  Feel free to stop in to have one of our talented artists draw something just for you,\n  <br>\n  or have a look around to see if one of our existing designs is what you’re looking for.\n</p>\n</div>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/thestudioinfo/thestudioinfo.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ThestudioinfoComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ThestudioinfoComponent = (function () {
+    function ThestudioinfoComponent() {
+    }
+    ThestudioinfoComponent.prototype.ngOnInit = function () {
+    };
+    return ThestudioinfoComponent;
+}());
+ThestudioinfoComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-thestudioinfo',
+        template: __webpack_require__("../../../../../src/app/thestudioinfo/thestudioinfo.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/thestudioinfo/thestudioinfo.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], ThestudioinfoComponent);
+
+//# sourceMappingURL=thestudioinfo.component.js.map
 
 /***/ }),
 
