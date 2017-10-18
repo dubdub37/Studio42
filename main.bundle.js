@@ -21,7 +21,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".aboutNav {\r\n  height: 500px;\r\n  background-color: #ececec;\r\n  /*padding-top: 100px;*/\r\n}\r\n\r\n.mainWelcomePort {\r\n  width: 50%;\r\n  margin: 0 auto;\r\n  padding-top: 20px;\r\n  font-size: 2em;\r\n  color: black;\r\n  text-align: center;\r\n  font-family: futura;\r\n}\r\n\r\n.example-card {\r\n  width: 400px;\r\n}\r\n\r\n.example-header-image {\r\n  background-image: url('http://material.angular.io/assets/img/examples/shiba1.jpg');\r\n  background-size: cover;\r\n}\r\n\r\n.example-button-row {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-align: center;\r\n      -ms-flex-align: center;\r\n          align-items: center;\r\n  -ms-flex-pack: distribute;\r\n      justify-content: space-around;\r\n}\r\n\r\n.historyDiv {\r\n  padding-left: 400px;\r\n  margin-top: 40px;\r\n}\r\n\r\n.historyDiv2 {\r\n  padding-left: 100px;\r\n}\r\n\r\n/*.hisDivs {*/\r\n  /*position: absolute;*/\r\n  /*left: 50%;*/\r\n  /*transform: translate(-50%, -50%);*/\r\n/*}*/\r\n\r\n@media only screen and (max-width: 1869px){\r\n  .historyDiv {\r\n    padding-left: 500px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1560px){\r\n  .historyDiv {\r\n    padding-left: 400px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1493px){\r\n  .historyDiv {\r\n    padding-left: 300px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1320px){\r\n\r\n  .historyDiv {\r\n    padding-left: 200px;\r\n  }\r\n\r\n}\r\n\r\n@media only screen and (max-width: 1120px){\r\n\r\n  .historyDiv {\r\n    padding-left: 100px;\r\n  }\r\n\r\n}\r\n\r\n@media only screen and (max-width: 575px) {\r\n  .historyDiv {\r\n    padding-left: 0px;\r\n  }\r\n\r\n  .example-card {\r\n    width: auto;\r\n  }\r\n\r\n  .historyDiv2 {\r\n    padding-left: 0px;\r\n  }\r\n\r\n}\r\n", ""]);
+exports.push([module.i, ".aboutNav {\r\n  height: 500px;\r\n  background-color: #ececec;\r\n  /*padding-top: 100px;*/\r\n}\r\n\r\n.mainWelcomePort {\r\n  width: 50%;\r\n  margin: 0 auto;\r\n  padding-top: 20px;\r\n  font-size: 2em;\r\n  color: black;\r\n  text-align: center;\r\n  font-family: futura;\r\n}\r\n\r\n.example-card {\r\n  width: 400px;\r\n}\r\n\r\n.example-header-image {\r\n  background-image: url('http://material.angular.io/assets/img/examples/shiba1.jpg');\r\n  background-size: cover;\r\n}\r\n\r\n.example-button-row {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-align: center;\r\n      -ms-flex-align: center;\r\n          align-items: center;\r\n  -ms-flex-pack: distribute;\r\n      justify-content: space-around;\r\n}\r\n\r\n.historyDiv {\r\n  padding-left: 400px;\r\n  margin-top: 40px;\r\n}\r\n\r\n.historyDiv2 {\r\n  padding-left: 100px;\r\n}\r\n\r\n/*.hisDivs {*/\r\n  /*position: absolute;*/\r\n  /*left: 50%;*/\r\n  /*transform: translate(-50%, -50%);*/\r\n/*}*/\r\n\r\n@media only screen and (max-width: 1869px){\r\n  .historyDiv {\r\n    padding-left: 500px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1700px){\r\n  .historyDiv {\r\n    padding-left: 425px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1665px){\r\n  .historyDiv {\r\n    padding-left: 400px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1560px){\r\n  .historyDiv {\r\n    padding-left: 400px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1493px){\r\n  .historyDiv {\r\n    padding-left: 300px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1320px){\r\n\r\n  .historyDiv {\r\n    padding-left: 200px;\r\n  }\r\n\r\n}\r\n\r\n@media only screen and (max-width: 1120px){\r\n\r\n  .historyDiv {\r\n    padding-left: 100px;\r\n  }\r\n\r\n}\r\n\r\n@media only screen and (max-width: 575px) {\r\n  .historyDiv {\r\n    padding-left: 0px;\r\n  }\r\n\r\n  .example-card {\r\n    width: auto;\r\n  }\r\n\r\n  .historyDiv2 {\r\n    padding-left: 0px;\r\n    padding-top: 20px;\r\n  }\r\n\r\n  .mat-card {\r\n    padding-right: 24px;\r\n  }\r\n\r\n}\r\n", ""]);
 
 // exports
 
@@ -34,7 +34,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/about/about.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"about\" class=\"aboutNav\">\n<div class=\"mainWelcomePort\">\n  About Us\n</div>\n  <div class=\"hisDivs\">\n  <div class=\"historyDiv\" style=\"display: inline-block;\">\n  <mat-card class=\"example-card\">\n  <img mat-card-image src=\"assets/img/fam.png\" alt=\"Photo of a Shiba Inu\">\n  <mat-card-content>\n    <div style=\"font-family: futura; text-align: center; font-size: 15px;\">..A Brief History</div>\n    <div>\n      <div class=\"button-row\" style=\"text-align: center; padding-top: 10px;\">\n        <button mat-fab style=\"background-color: darkred\"><span style=\"color: white\">Read</span></button>\n      </div>\n    </div>\n  </mat-card-content>\n</mat-card>\n  </div>\n  <div class=\"historyDiv2\" style=\"display: inline-block;\">\n  <mat-card class=\"example-card\">\n    <img mat-card-image src=\"assets/img/imageShp.png\">\n    <mat-card-content>\n     <div style=\"font-family: futura; text-align: center;  font-size: 15px;\">Studio 42</div>\n      <div>\n          <div class=\"button-row\" style=\"text-align: center; padding-top: 10px;\">\n          <button mat-fab style=\"background-color: darkred\" (click)=\"openDialog()\"><span style=\"color: white\">Read</span></button>\n        </div>\n      </div>\n    </mat-card-content>\n  </mat-card>\n  </div>\n</div>\n</div>\n"
+module.exports = "<div id=\"about\" class=\"aboutNav\">\n<div class=\"mainWelcomePort\">\n  About Us\n</div>\n  <div class=\"hisDivs\">\n  <div class=\"historyDiv\" style=\"display: inline-block;\">\n  <mat-card class=\"example-card\">\n  <img mat-card-image src=\"assets/img/fam.png\" alt=\"Photo of a Shiba Inu\">\n  <mat-card-content>\n    <div style=\"font-family: futura; text-align: center; font-size: 15px;\">..A Brief History</div>\n    <div>\n      <div class=\"button-row\" style=\"text-align: center; padding-top: 10px;\">\n        <button mat-fab style=\"background-color: darkred\" (click)=\"openDialog1()\"><span style=\"color: white\">Read</span></button>\n      </div>\n    </div>\n  </mat-card-content>\n</mat-card>\n  </div>\n  <div class=\"historyDiv2\" style=\"display: inline-block;\">\n  <mat-card class=\"example-card\">\n    <img mat-card-image src=\"assets/img/imageShp.png\">\n    <mat-card-content>\n     <div style=\"font-family: futura; text-align: center;  font-size: 15px;\">Studio 42</div>\n      <div>\n          <div class=\"button-row\" style=\"text-align: center; padding-top: 10px;\">\n          <button mat-fab style=\"background-color: darkred\" (click)=\"openDialog2()\"><span style=\"color: white\">Read</span></button>\n        </div>\n      </div>\n    </mat-card-content>\n  </mat-card>\n  </div>\n</div>\n</div>\n"
 
 /***/ }),
 
@@ -45,6 +45,7 @@ module.exports = "<div id=\"about\" class=\"aboutNav\">\n<div class=\"mainWelcom
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_material__ = __webpack_require__("../../../material/esm5/material.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__thestudioinfo_thestudioinfo_component__ = __webpack_require__("../../../../../src/app/thestudioinfo/thestudioinfo.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__briefhistory_briefhistory_component__ = __webpack_require__("../../../../../src/app/briefhistory/briefhistory.component.ts");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -58,14 +59,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var AboutComponent = (function () {
     function AboutComponent(dialog) {
         this.dialog = dialog;
     }
     AboutComponent.prototype.ngOnInit = function () {
     };
-    AboutComponent.prototype.openDialog = function () {
+    AboutComponent.prototype.openDialog2 = function () {
         this.dialog.open(__WEBPACK_IMPORTED_MODULE_2__thestudioinfo_thestudioinfo_component__["a" /* ThestudioinfoComponent */]);
+    };
+    AboutComponent.prototype.openDialog1 = function () {
+        this.dialog.open(__WEBPACK_IMPORTED_MODULE_3__briefhistory_briefhistory_component__["a" /* BriefhistoryComponent */]);
     };
     AboutComponent.prototype.onClick = function () {
         this.animationClicked = true;
@@ -175,6 +180,7 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25_ng_gallery__ = __webpack_require__("../../../../ng-gallery/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26_ngx_gallery__ = __webpack_require__("../../../../ngx-gallery/lib/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__thestudioinfo_thestudioinfo_component__ = __webpack_require__("../../../../../src/app/thestudioinfo/thestudioinfo.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__briefhistory_briefhistory_component__ = __webpack_require__("../../../../../src/app/briefhistory/briefhistory.component.ts");
 /* unused harmony export galleryConfig */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -183,6 +189,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -239,11 +246,13 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_21__port1images_port1images_component__["a" /* Port1imagesComponent */],
             __WEBPACK_IMPORTED_MODULE_22__port2images_port2images_component__["a" /* Port2imagesComponent */],
             __WEBPACK_IMPORTED_MODULE_27__thestudioinfo_thestudioinfo_component__["a" /* ThestudioinfoComponent */],
+            __WEBPACK_IMPORTED_MODULE_28__briefhistory_briefhistory_component__["a" /* BriefhistoryComponent */],
         ],
         entryComponents: [
             __WEBPACK_IMPORTED_MODULE_21__port1images_port1images_component__["a" /* Port1imagesComponent */],
             __WEBPACK_IMPORTED_MODULE_22__port2images_port2images_component__["a" /* Port2imagesComponent */],
             __WEBPACK_IMPORTED_MODULE_27__thestudioinfo_thestudioinfo_component__["a" /* ThestudioinfoComponent */],
+            __WEBPACK_IMPORTED_MODULE_28__briefhistory_briefhistory_component__["a" /* BriefhistoryComponent */],
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["BrowserModule"],
@@ -296,7 +305,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/artist2/artist2.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"oz\" class=\"artistNav\">\n  <div>\n    <img class=\"headshot2\" src=\"assets/img/Headshotmale.png\">\n  </div>\n  <!--<div class=\"artisthead\" style=\"font-family: futura; font-size: 50px;\">-->\n    <!--Artist-->\n  <!--</div>-->\n  <div class=\"artisthead2\" style=\"font-family: james;\">\n    Oz\n  </div>\n  <div class=\"artistText\">\n    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n  </div>\n</div>\n"
+module.exports = "<div id=\"oz\" class=\"artistNav\">\n  <div>\n    <img class=\"headshot2\" src=\"assets/img/Headshotmale.png\">\n  </div>\n  <!--<div class=\"artisthead\" style=\"font-family: futura; font-size: 50px;\">-->\n    <!--Artist-->\n  <!--</div>-->\n  <div class=\"artisthead2\" style=\"font-family: james;\">\n    Oz\n  </div>\n  <div class=\"artistText\">\n    ﻿Glenn,﻿ aka OZ, is not just another black shirt wearing tattoo artist. He likes green. He has been tattooing for 16 years and piercing 18. He likes tattooing all styles and hopes to be considered a well rounded artist by his peers. Designs with bold color and shapes that fit the body’s curves are always sharp looking in his book. In his spare time he fabricates handmade tattoo machines, for the industry and friends. When he is not behind the desk drawing or working on a client you can usually find him in the machine shop with his head down and sparks flying. Currently, he is working on redefining the title “Artist.\" Exploring and training in many techniques and mediums of the creative universe, with focuses on the practical aspects of tattooing today.  </div>\n</div>\n"
 
 /***/ }),
 
@@ -357,7 +366,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/artists/artists.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"cassie\" class=\"artistNav\">\n  <div>\n    <img class=\"headshot1\" src=\"assets/img/girlShot.png\">\n  </div>\n  <!--<div class=\"artisthead\" style=\"font-family: futura; font-size: 50px;\">-->\n    <!--Artist-->\n  <!--</div>-->\n  <div class=\"artisthead2\" style=\"font-family: james; font-size: 150px;\">\n    <span class=\"fsize\">Cassie</span>\n  </div>\n<div class=\"artistText\">\n  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n</div>\n</div>\n"
+module.exports = "<div id=\"cassie\" class=\"artistNav\">\n  <div>\n    <img class=\"headshot1\" src=\"assets/img/girlShot.png\">\n  </div>\n  <!--<div class=\"artisthead\" style=\"font-family: futura; font-size: 50px;\">-->\n    <!--Artist-->\n  <!--</div>-->\n  <div class=\"artisthead2\" style=\"font-family: james; font-size: 150px;\">\n    <span class=\"fsize\">Cassie</span>\n  </div>\n<div class=\"artistText\">\n  Cassie is a renowned, award winning, female artist. She has been tattooing for over 20 years give or take. Her apprenticeship was served under Brian Williams of Skin Deep in Clarksville, TN. She specializes in fine line, portrait, and cover up work. Her other talents, such as painting acrylic, oil, and airbrush, have helped her refine the art she does on a daily basis. Not to mention, she is a fabulous cook and mother. Currently she is involved with animal charities. That’s right folks, she loves dogs as well as cats. She is also working towards her RYT500 in yoga. Oz calls her a yoga champion</div>\n</div>\n"
 
 /***/ }),
 
@@ -397,6 +406,67 @@ ArtistsComponent = __decorate([
 
 /***/ }),
 
+/***/ "../../../../../src/app/briefhistory/briefhistory.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/briefhistory/briefhistory.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div style=\"font-family: futura; text-align: center; font-size: 15px;\">\n  <p>\n    <span style=\"font-size: 25px;\">..A brief history</span>\n    <br>\n    <br>\n    Studio 42 was founded in 2001 by Cassie and Glenn Dillinger in North Sewickley, PA. <br>\n    Soon after the inception date, the studio grew out of its diapers and moved straight passed pull-ups to big kid pants.<br>\n    Laying down roots at its current location in Beaver Falls, PA at 1512 7th Ave, <br>\n    just a couple blocks down the street from our old place.<br>\n    It's easy to find, right across the street from Rite Aid, in the middle of town.\n  </p>\n</div>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/briefhistory/briefhistory.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BriefhistoryComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var BriefhistoryComponent = (function () {
+    function BriefhistoryComponent() {
+    }
+    BriefhistoryComponent.prototype.ngOnInit = function () {
+    };
+    return BriefhistoryComponent;
+}());
+BriefhistoryComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-briefhistory',
+        template: __webpack_require__("../../../../../src/app/briefhistory/briefhistory.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/briefhistory/briefhistory.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], BriefhistoryComponent);
+
+//# sourceMappingURL=briefhistory.component.js.map
+
+/***/ }),
+
 /***/ "../../../../../src/app/faq/faq.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -405,7 +475,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".faqBack {\r\n  height: 400px;\r\n  background-color: white;\r\n  /*margin-top: 500px;*/\r\n}\r\n\r\n.faqImg {\r\npadding-left: 100px;\r\n  text-align: center;\r\n  margin-right: 105px;\r\n  cursor: pointer;\r\n}\r\n\r\n.faqText {\r\n  font-family: futura;\r\n  font-size: 25px;\r\n  margin-top: 125px;\r\n}\r\n\r\n@media only screen and (max-width: 575px) {\r\n\r\n  .faqText {\r\n    margin-top: 475px;\r\n  }\r\n\r\n  img {\r\n    height: 75%;\r\n    width: 75%;\r\n  }\r\n\r\n  .faqBack {\r\n    height: 300px;\r\n    /*margin-top: 500px;*/\r\n  }\r\n}\r\n", ""]);
+exports.push([module.i, ".faqBack {\r\n  height: 400px;\r\n  background-color: white;\r\n  /*margin-top: 500px;*/\r\n}\r\n\r\n.faqImg {\r\npadding-left: 100px;\r\n  text-align: center;\r\n  margin-right: 105px;\r\n  cursor: pointer;\r\n}\r\n\r\n.faqText {\r\n  font-family: futura;\r\n  font-size: 25px;\r\n  margin-top: 125px;\r\n}\r\n\r\n@media only screen and (max-width: 575px) {\r\n\r\n  .faqText {\r\n    margin-top: 475px;\r\n  }\r\n\r\n  img {\r\n    height: 75%;\r\n    width: 75%;\r\n  }\r\n\r\n  .faqBack {\r\n    height: 300px;\r\n    padding-top: 55px;\r\n    /*margin-top: 500px;*/\r\n  }\r\n}\r\n", ""]);
 
 // exports
 
@@ -466,7 +536,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".footerNav {\r\n  height: 300px;\r\n  background-color: black;\r\n  /*padding-top: 100px;*/\r\n}\r\n\r\n\r\n@media only screen and (max-width: 575px) {\r\n  .footerNav {\r\n    height: 100px;\r\n    background-color: black;\r\n    /*padding-top: 100px;*/\r\n  }\r\n}\r\n", ""]);
+exports.push([module.i, ".footerNav {\r\n  height: 300px;\r\n  background-color: black;\r\n  /*padding-top: 100px;*/\r\n}\r\n\r\n\r\n@media only screen and (max-width: 575px) {\r\n  .footerNav {\r\n    height: 100px;\r\n    background-color: black;\r\n    margin-top: 500px;\r\n  }\r\n}\r\n", ""]);
 
 // exports
 
@@ -987,7 +1057,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".subnav {\r\n  /*height: 200px;*/\r\n  background-color: white;\r\n  /*margin-top: 20px;*/\r\n  position: relative;\r\n  top: 50px;\r\n  padding-bottom: 25px;\r\n\r\n}\r\n\r\n.navIcon\r\n{\r\n  display: inline-block;\r\n  padding-bottom: 30px;\r\n  margin-top: 10px;\r\n  padding-right: 70px;\r\n}\r\n\r\n.iconsNavMain {\r\n  /*width: 50%;*/\r\n  margin: 0 auto;\r\n  text-align: center;\r\n\r\n}\r\n\r\n button:hover {\r\n  background-color: rgba(139, 0, 0, 0.46);\r\n\r\n}\r\n\r\n.iconText {\r\n  padding-top: 5px;\r\n}\r\n\r\n\r\n@media only screen and (max-width: 575px) {\r\n\r\n  .subnav{\r\n    padding-bottom: 50px;\r\n  }\r\n  .navIcon\r\n  {\r\n    display: inline-block;\r\n    padding-bottom: 0px;\r\n    margin-top: 0px;\r\n    padding-right: 0px;\r\n  }\r\n}\r\n", ""]);
+exports.push([module.i, ".subnav {\r\n  /*height: 200px;*/\r\n  background-color: white;\r\n  /*margin-top: 20px;*/\r\n  position: relative;\r\n  top: 50px;\r\n  padding-bottom: 25px;\r\n\r\n}\r\n\r\n.navIcon\r\n{\r\n  display: inline-block;\r\n  padding-bottom: 30px;\r\n  margin-top: 10px;\r\n  padding-right: 70px;\r\n}\r\n\r\n.iconsNavMain {\r\n  /*width: 50%;*/\r\n  margin: 0 auto;\r\n  text-align: center;\r\n\r\n}\r\n\r\n button:hover {\r\n  background-color: rgba(139, 0, 0, 0.46);\r\n\r\n}\r\n\r\n.iconText {\r\n  padding-top: 5px;\r\n}\r\n\r\n\r\n@media only screen and (max-width: 575px) {\r\n\r\n  .subnav{\r\n    padding-bottom: 50px;\r\n  }\r\n  .navIcon\r\n  {\r\n    display: inline-block;\r\n    padding-bottom: 0px;\r\n    margin-top: 0px;\r\n    padding-right: 0px;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 375px) {\r\n\r\n  .subnav{\r\n    padding-bottom: 50px;\r\n  }\r\n  .navIcon\r\n  {\r\n    padding-right: 10px;\r\n    padding-top: 5px;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 414px) {\r\n\r\n  .subnav{\r\n    padding-bottom: 50px;\r\n  }\r\n  .navIcon\r\n  {\r\n    padding-right: 10px;\r\n    margin-left: 22px;\r\n  }\r\n}\r\n", ""]);
 
 // exports
 
@@ -1048,7 +1118,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".theShopNav {\r\n  height: 800px;\r\n  background-color: gainsboro;\r\n  margin-top: 400px;\r\n}\r\n\r\n.mainWelcomePort {\r\n  width: 50%;\r\n  margin: 0 auto;\r\n  padding-top: 20px;\r\n  font-size: 2em;\r\n  color: black;\r\n  text-align: center;\r\n}\r\n\r\n.artistText {\r\n  padding: 25px;\r\n  font-family: futura;\r\n  font-size: 16px;\r\n  margin-top: 100px;\r\n}\r\n\r\n.shopImg {\r\n  display: block;\r\n  margin: 0px auto;\r\n  margin-top: 80px;\r\n  padding-left: 30px;\r\n  float: right;\r\n}\r\n\r\n@media only screen and (max-width: 575px) {\r\n  .theShopNav {\r\n    height: 800px;\r\n    background-color: gainsboro  ;\r\n    margin-top: 400px;\r\n  }\r\n.shopImg{\r\n  margin-top: 15px;\r\n}\r\n  img {\r\n    width: 100%;\r\n  }\r\n}\r\n", ""]);
+exports.push([module.i, ".theShopNav {\r\n  height: 800px;\r\n  background-color: gainsboro;\r\n  margin-top: 400px;\r\n}\r\n\r\n.mainWelcomePort {\r\n  width: 50%;\r\n  margin: 0 auto;\r\n  padding-top: 20px;\r\n  font-size: 2em;\r\n  color: black;\r\n  text-align: center;\r\n}\r\n\r\n.artistText {\r\n  padding: 25px;\r\n  font-family: futura;\r\n  font-size: 16px;\r\n  margin-top: 100px;\r\n}\r\n\r\n.shopImg {\r\n  display: block;\r\n  margin: 0px auto;\r\n  margin-top: 80px;\r\n  padding-left: 30px;\r\n  float: right;\r\n}\r\n\r\n@media only screen and (max-width: 575px) {\r\n  .theShopNav {\r\n    height: 800px;\r\n    background-color: gainsboro  ;\r\n    margin-top: 400px;\r\n  }\r\n.shopImg{\r\n  margin-top: 15px;\r\n}\r\n  img {\r\n    width: 100%;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 414px) {\r\n  .theShopNav {\r\n    height: 550px;\r\n  }\r\n}\r\n", ""]);
 
 // exports
 
@@ -1126,7 +1196,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/thestudioinfo/thestudioinfo.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div style=\"font-family: futura; text-align: center; font-size: 15px;\">\n<p>\n  <span style=\"font-size: 25px;\">Studio 42</span>\n  <br>\n  <br>\n  is a custom street shop tattoo boutique located in Beaver Falls, PA.\n  <br>\n  We are home to two full time tattoo artists, Cassie and Oz, and Oz is also a master piercer.\n  <br>\n\n  Appointments are preferred, but walk-ins are welcomed. Call the shop for availability.\n  <br>\n\n  Click the Artist Gallery link to the left to browse our portfolios.\n  <br>\n\n  Feel free to stop in to have one of our talented artists draw something just for you,\n  <br>\n  or have a look around to see if one of our existing designs is what you’re looking for.\n</p>\n</div>\n"
+module.exports = "<div style=\"font-family: futura; text-align: center; font-size: 15px;\">\n<p>\n  <span style=\"font-size: 25px;\">Studio 42</span>\n  <br>\n  <br>\n  We are a custom street shop tattoo boutique located in Beaver Falls, PA.\n  <br>\n  We are home to two full time tattoo artists, Cassie and Oz, and Oz is also a master piercer.\n  <br>\n\n  Appointments are preferred, but walk-ins are welcomed. Call the shop for availability.\n  <br>\n\n  Click the Artist Gallery link to the left to browse our portfolios.\n  <br>\n\n  Feel free to stop in to have one of our talented artists draw something just for you,\n  <br>\n  or have a look around to see if one of our existing designs is what you’re looking for.\n</p>\n</div>\n"
 
 /***/ }),
 
