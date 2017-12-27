@@ -21,7 +21,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".aboutNav {\r\n  height: 600px;\r\n  background-image: url(\"https://dubdub37.github.io/Studio42/assets/img/final-fullW.png\");\r\n  /*padding-top: 100px;*/\r\n}\r\n\r\n.mainWelcomePort {\r\n  width: 50%;\r\n  margin: 0 auto;\r\n  padding-top: 20px;\r\n  font-size: 2em;\r\n  color: black;\r\n  text-align: center;\r\n  font-family: futura;\r\n}\r\n\r\n.example-card {\r\n  width: 400px;\r\n}\r\n\r\n.example-header-image {\r\n  background-image: url('http://material.angular.io/assets/img/examples/shiba1.jpg');\r\n  background-size: cover;\r\n}\r\n\r\n.example-button-row {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-align: center;\r\n      -ms-flex-align: center;\r\n          align-items: center;\r\n  -ms-flex-pack: distribute;\r\n      justify-content: space-around;\r\n}\r\n\r\n.historyDiv {\r\n  padding-left: 500px;\r\n  margin-top: 40px;\r\n}\r\n\r\n.historyDiv2 {\r\n  padding-left: 100px;\r\n}\r\n\r\n/*.hisDivs {*/\r\n  /*position: absolute;*/\r\n  /*left: 50%;*/\r\n  /*transform: translate(-50%, -50%);*/\r\n/*}*/\r\n@media only screen and (max-width: 1910px){\r\n  .historyDiv {\r\n    padding-left: 500px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1869px){\r\n  .historyDiv {\r\n    padding-left: 500px;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 1819px){\r\n  .historyDiv {\r\n    padding-left: 450px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1700px){\r\n  .historyDiv {\r\n    padding-left: 425px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1665px){\r\n  .historyDiv {\r\n    padding-left: 400px;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 1600px){\r\n  .historyDiv {\r\n    padding-left: 375px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1560px){\r\n  .historyDiv {\r\n    padding-left: 350px;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 1540px){\r\n  .historyDiv {\r\n    padding-left: 320px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1493px){\r\n  .historyDiv {\r\n    padding-left: 300px;\r\n  }\r\n}\r\n\r\n\r\n@media only screen and (max-width: 1320px){\r\n\r\n  .historyDiv {\r\n    padding-left: 200px;\r\n  }\r\n\r\n}\r\n\r\n@media only screen and (max-width: 1120px){\r\n\r\n  .historyDiv {\r\n    padding-left: 100px;\r\n  }\r\n\r\n}\r\n\r\n@media only screen and (max-width: 575px) {\r\n  .historyDiv {\r\n    padding-left: 0px;\r\n  }\r\n\r\n  .example-card {\r\n    width: auto;\r\n  }\r\n\r\n  .historyDiv2 {\r\n    padding-left: 0px;\r\n    padding-top: 20px;\r\n  }\r\n\r\n\r\n\r\n}\r\n", ""]);
+exports.push([module.i, ".aboutNav {\r\n  height: 600px;\r\n  background-image: url(\"https://dubdub37.github.io/Studio42/assets/img/final-fullW.png\");\r\n  /*padding-top: 100px;*/\r\n}\r\n\r\n.mainWelcomePort {\r\n  width: 50%;\r\n  margin: 0 auto;\r\n  padding-top: 20px;\r\n  font-size: 2em;\r\n  color: black;\r\n  text-align: center;\r\n  font-family: futura;\r\n}\r\n\r\n.example-card {\r\n  width: 400px;\r\n}\r\n\r\n.example-header-image {\r\n  background-image: url('http://material.angular.io/assets/img/examples/shiba1.jpg');\r\n  background-size: cover;\r\n}\r\n\r\n.example-button-row {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-align: center;\r\n      -ms-flex-align: center;\r\n          align-items: center;\r\n  -ms-flex-pack: distribute;\r\n      justify-content: space-around;\r\n}\r\n\r\n.historyDiv {\r\n  padding-left: 500px;\r\n  margin-top: 40px;\r\n}\r\n\r\n.historyDiv2 {\r\n  padding-left: 100px;\r\n}\r\n\r\n/*.hisDivs {*/\r\n  /*position: absolute;*/\r\n  /*left: 50%;*/\r\n  /*transform: translate(-50%, -50%);*/\r\n/*}*/\r\n@media only screen and (max-width: 1910px){\r\n  .historyDiv {\r\n    padding-left: 500px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1869px){\r\n  .historyDiv {\r\n    padding-left: 500px;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 1819px){\r\n  .historyDiv {\r\n    padding-left: 450px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1700px){\r\n  .historyDiv {\r\n    padding-left: 425px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1665px){\r\n  .historyDiv {\r\n    padding-left: 400px;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 1600px){\r\n  .historyDiv {\r\n    padding-left: 375px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1560px){\r\n  .historyDiv {\r\n    padding-left: 350px;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 1540px){\r\n  .historyDiv {\r\n    padding-left: 320px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1493px){\r\n  .historyDiv {\r\n    padding-left: 300px;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 1366px){\r\n  .historyDiv {\r\n    padding-left: 250px;\r\n  }\r\n}\r\n\r\n\r\n@media only screen and (max-width: 1320px){\r\n\r\n  .historyDiv {\r\n    padding-left: 200px;\r\n  }\r\n\r\n}\r\n\r\n@media only screen and (max-width: 1120px){\r\n\r\n  .historyDiv {\r\n    padding-left: 100px;\r\n  }\r\n\r\n}\r\n\r\n@media only screen and (max-width: 575px) {\r\n  .historyDiv {\r\n    padding-left: 0px;\r\n  }\r\n\r\n  .example-card {\r\n    width: auto;\r\n  }\r\n\r\n  .historyDiv2 {\r\n    padding-left: 0px;\r\n    padding-top: 20px;\r\n  }\r\n\r\n\r\n\r\n}\r\n", ""]);
 
 // exports
 
@@ -183,6 +183,7 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__briefhistory_briefhistory_component__ = __webpack_require__("../../../../../src/app/briefhistory/briefhistory.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__artist3_artist3_component__ = __webpack_require__("../../../../../src/app/artist3/artist3.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__faq_q_faq_q_component__ = __webpack_require__("../../../../../src/app/faq-q/faq-q.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__ourlikes_ourlikes_component__ = __webpack_require__("../../../../../src/app/ourlikes/ourlikes.component.ts");
 /* unused harmony export galleryConfig */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -191,6 +192,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -253,6 +255,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_28__briefhistory_briefhistory_component__["a" /* BriefhistoryComponent */],
             __WEBPACK_IMPORTED_MODULE_29__artist3_artist3_component__["a" /* Artist3Component */],
             __WEBPACK_IMPORTED_MODULE_30__faq_q_faq_q_component__["a" /* FaqQComponent */],
+            __WEBPACK_IMPORTED_MODULE_31__ourlikes_ourlikes_component__["a" /* OurlikesComponent */],
         ],
         entryComponents: [
             __WEBPACK_IMPORTED_MODULE_21__port1images_port1images_component__["a" /* Port1imagesComponent */],
@@ -260,6 +263,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_27__thestudioinfo_thestudioinfo_component__["a" /* ThestudioinfoComponent */],
             __WEBPACK_IMPORTED_MODULE_28__briefhistory_briefhistory_component__["a" /* BriefhistoryComponent */],
             __WEBPACK_IMPORTED_MODULE_30__faq_q_faq_q_component__["a" /* FaqQComponent */],
+            __WEBPACK_IMPORTED_MODULE_31__ourlikes_ourlikes_component__["a" /* OurlikesComponent */],
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["BrowserModule"],
@@ -360,7 +364,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".artistNav {\r\n  height: 800px;\r\n  /*background-color: white;*/\r\n  background-image: url(\"https://dubdub37.github.io/Studio42/assets/img/final-fullW.png\");\r\n  /*background-repeat: repeat;*/\r\n  /*padding-top: 100px;*/\r\n}\r\n\r\n.headshot1{\r\n  float: right;\r\n  padding-top: 75px;\r\n  padding-right: 120px;\r\n}\r\n\r\n.artisthead {\r\n  padding-left: 500px;\r\n  padding-top: 50px;\r\n}\r\n\r\n.artisthead2 {\r\n  padding-left: 800px;\r\n  padding-top: 370px;\r\n}\r\n\r\n.artistText {\r\n  padding: 10px 50px 50px 50px;\r\n  font-family: futura;\r\n  font-size: 16px;\r\n  /*font-weight: bold;*/\r\n}\r\n\r\n\r\n@media only screen and (max-width: 575px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 475px;\r\n    padding-right: 25px;\r\n    height: 50%;\r\n    width: 85%;\r\n    margin-right: 5px;\r\n  }\r\n\r\n  .artisthead2 {\r\n    padding-left: 20px;\r\n    font-size: 60px;\r\n    /*padding-left: 50px;*/\r\n    /*padding-top: 450px;*/\r\n    margin-top: 540px;\r\n    padding-top: 0px;\r\n    position: absolute;\r\n    /*margin-left: 15px;*/\r\n  }\r\n\r\n  .artistText {\r\n    /*padding-left: 15px;*/\r\n    /*padding-right: 15px;*/\r\n    font-family: futura;\r\n    font-size: 13px;\r\n    margin-top: -20px;\r\n    /*font-weight: bold;*/\r\n  }\r\n\r\n}\r\n\r\n@media only screen and (max-width: 1540px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 50px;\r\n    padding-right: 120px;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 1526px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 70px;\r\n    padding-right: 120px;\r\n  }\r\n\r\n  .artisthead2 {\r\n    padding-left: 700px;\r\n    padding-top: 370px;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 1426px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 215px;\r\n    padding-right: 120px;\r\n  }\r\n\r\n  .artisthead2 {\r\n    padding-left: 500px;\r\n    padding-top: 370px;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 1226px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 215px;\r\n    padding-right: 120px;\r\n  }\r\n\r\n  .artisthead2 {\r\n    padding-left: 300px;\r\n    padding-top: 370px;\r\n  }\r\n  .artistNav {\r\n    height: 525px;\r\n    background-color: white;\r\n    /*padding-top: 100px;*/\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 1196px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 20px;\r\n    padding-right: 120px;\r\n  }\r\n\r\n  .artisthead2 {\r\n    padding-left: 300px;\r\n    padding-top: 530px;\r\n  }\r\n\r\n  .artistNav {\r\n    height: 830px;\r\n    background-color: white;\r\n    /*padding-top: 100px;*/\r\n  }\r\n}\r\n@media only screen and (max-width: 414px) {\r\n  .artisthead2 {\r\n    padding-left: 15px;\r\n    padding-top: 75px;\r\n  }\r\n\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 500px;\r\n    padding-right: 20px;\r\n  }\r\n\r\n  .artistText {\r\n    /*padding-left: 15px;*/\r\n    /*padding-right: 15px;*/\r\n    font-family: futura;\r\n    font-size: 13px;\r\n    margin-top: -20px;\r\n    padding: 5px 5px 5px 50px;\r\n  }\r\n\r\n  .artistNav {\r\n    height: 1075px;\r\n    background-color: white;\r\n    /*padding-top: 100px;*/\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 375px) {\r\n\r\n  .artisthead2 {\r\n    padding-left: 20px;\r\n  }\r\n\r\n  .artistText {\r\n    /*padding-left: 15px;*/\r\n    /*padding-right: 15px;*/\r\n    font-family: futura;\r\n    font-size: 13px;\r\n    margin-top: -20px;\r\n    padding: 5px 5px 5px 40px;\r\n    /*font-weight: bold;*/\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 320px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 415px;\r\n    padding-right: 25px;\r\n    height: 50%;\r\n    width: 85%;\r\n    margin-right: 5px;\r\n  }\r\n\r\n  img {\r\n    width: 70%;\r\n  }\r\n\r\n  .artisthead2 {\r\n    padding-left: 20px;\r\n    font-size: 60px;\r\n    /*padding-left: 50px;*/\r\n    /*padding-top: 450px;*/\r\n    margin-top: 475px;\r\n    padding-top: 0px;\r\n    position: absolute;\r\n    /*margin-left: 15px;*/\r\n  }\r\n\r\n  .artistText {\r\n    /*padding-left: 15px;*/\r\n    /*padding-right: 15px;*/\r\n    font-family: futura;\r\n    font-size: 12px;\r\n    margin-top: -20px;\r\n    padding: 10px 25px 5px 25px;\r\n    /*font-weight: bold;*/\r\n  }\r\n\r\n}\r\n", ""]);
+exports.push([module.i, ".artistNav {\r\n  height: 800px;\r\n  /*background-color: white;*/\r\n  background-image: url(\"https://dubdub37.github.io/Studio42/assets/img/final-fullW.png\");\r\n  /*background-repeat: repeat;*/\r\n  /*padding-top: 100px;*/\r\n}\r\n\r\n.headshot1{\r\n  float: right;\r\n  padding-top: 75px;\r\n  padding-right: 120px;\r\n}\r\n\r\n.artisthead {\r\n  padding-left: 500px;\r\n  padding-top: 50px;\r\n}\r\n\r\n.artisthead2 {\r\n  padding-left: 800px;\r\n  padding-top: 370px;\r\n}\r\n\r\n.artistText {\r\n  padding: 10px 50px 50px 50px;\r\n  font-family: futura;\r\n  font-size: 16px;\r\n  /*font-weight: bold;*/\r\n}\r\n\r\n\r\n@media only screen and (max-width: 575px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 475px;\r\n    padding-right: 25px;\r\n    height: 50%;\r\n    width: 85%;\r\n    margin-right: 5px;\r\n  }\r\n\r\n  .artisthead2 {\r\n    padding-left: 20px;\r\n    font-size: 60px;\r\n    /*padding-left: 50px;*/\r\n    /*padding-top: 450px;*/\r\n    margin-top: 540px;\r\n    padding-top: 0px;\r\n    position: absolute;\r\n    /*margin-left: 15px;*/\r\n  }\r\n\r\n  .artistText {\r\n    /*padding-left: 15px;*/\r\n    /*padding-right: 15px;*/\r\n    font-family: futura;\r\n    font-size: 13px;\r\n    margin-top: -20px;\r\n    /*font-weight: bold;*/\r\n  }\r\n\r\n}\r\n\r\n@media only screen and (max-width: 1540px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 50px;\r\n    padding-right: 120px;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 1526px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 70px;\r\n    padding-right: 120px;\r\n  }\r\n\r\n  .artisthead2 {\r\n    padding-left: 700px;\r\n    padding-top: 370px;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 1426px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 215px;\r\n    padding-right: 120px;\r\n  }\r\n\r\n  .artisthead2 {\r\n    padding-left: 500px;\r\n    padding-top: 370px;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 1366px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 80px;\r\n    padding-right: 120px;\r\n  }\r\n\r\n  .artisthead2 {\r\n    padding-left: 500px;\r\n    padding-top: 370px;\r\n  }\r\n}\r\n@media only screen and (max-width: 1226px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 215px;\r\n    padding-right: 120px;\r\n  }\r\n\r\n  .artisthead2 {\r\n    padding-left: 300px;\r\n    padding-top: 370px;\r\n  }\r\n  .artistNav {\r\n    height: 525px;\r\n    background-color: white;\r\n    /*padding-top: 100px;*/\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 1196px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 20px;\r\n    padding-right: 120px;\r\n  }\r\n\r\n  .artisthead2 {\r\n    padding-left: 300px;\r\n    padding-top: 530px;\r\n  }\r\n\r\n  .artistNav {\r\n    height: 830px;\r\n    background-color: white;\r\n    /*padding-top: 100px;*/\r\n  }\r\n}\r\n@media only screen and (max-width: 414px) {\r\n  .artisthead2 {\r\n    padding-left: 15px;\r\n    padding-top: 75px;\r\n  }\r\n\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 500px;\r\n    padding-right: 20px;\r\n  }\r\n\r\n  .artistText {\r\n    /*padding-left: 15px;*/\r\n    /*padding-right: 15px;*/\r\n    font-family: futura;\r\n    font-size: 13px;\r\n    margin-top: -20px;\r\n    padding: 5px 5px 5px 50px;\r\n  }\r\n\r\n  .artistNav {\r\n    height: 1250px;\r\n    background-color: white;\r\n    /*padding-top: 100px;*/\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 375px) {\r\n\r\n  .artisthead2 {\r\n    padding-left: 20px;\r\n  }\r\n\r\n  .artistText {\r\n    /*padding-left: 15px;*/\r\n    /*padding-right: 15px;*/\r\n    font-family: futura;\r\n    font-size: 13px;\r\n    margin-top: -20px;\r\n    padding: 5px 5px 5px 40px;\r\n    /*font-weight: bold;*/\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 320px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 415px;\r\n    padding-right: 25px;\r\n    height: 50%;\r\n    width: 85%;\r\n    margin-right: 5px;\r\n  }\r\n\r\n  img {\r\n    width: 70%;\r\n  }\r\n\r\n  .artisthead2 {\r\n    padding-left: 20px;\r\n    font-size: 60px;\r\n    /*padding-left: 50px;*/\r\n    /*padding-top: 450px;*/\r\n    margin-top: 475px;\r\n    padding-top: 0px;\r\n    position: absolute;\r\n    /*margin-left: 15px;*/\r\n  }\r\n\r\n  .artistText {\r\n    /*padding-left: 15px;*/\r\n    /*padding-right: 15px;*/\r\n    font-family: futura;\r\n    font-size: 12px;\r\n    margin-top: -20px;\r\n    padding: 10px 25px 5px 25px;\r\n    /*font-weight: bold;*/\r\n  }\r\n\r\n}\r\n", ""]);
 
 // exports
 
@@ -421,7 +425,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".artistNav {\r\n  height: 500px;\r\n  /*background-color: white;*/\r\n  background-image: url(\"https://dubdub37.github.io/Studio42/assets/img/final-fullW.png\");\r\n  /*padding-top: 100px;*/\r\n}\r\n\r\n.headshot1{\r\n  float: right;\r\n  padding-top: 15px;\r\n  padding-right: 120px;\r\n}\r\n\r\n.artisthead {\r\n  padding-left: 500px;\r\n  padding-top: 50px;\r\n}\r\n\r\n.cassieImg{\r\n  margin-top: 200px;\r\n  position: absolute;\r\n  left: 700px;\r\n}\r\n\r\n.artisthead2 {\r\n  padding-left: 465px;\r\n  padding-top: 0px;\r\n}\r\n\r\n.artistText {\r\n  padding: 25px;\r\n  font-family: futura;\r\n  font-size: 16px;\r\n  position: absolute;\r\n  margin-top: 300px;\r\n  padding-right: 500px;\r\n  padding-left: 75px\r\n  /*font-weight: bold;*/\r\n}\r\n\r\n\r\n@media only screen and (max-width: 575px) {\r\n.headshot1 {\r\n  float: right;\r\n  padding-top: 15px;\r\n  padding-right: 10px;\r\n  height: 50%;\r\n  width: 65%;\r\n  margin-right: 20px;\r\n}\r\n\r\n.artisthead2 {\r\n  padding-left: 0px;\r\n  position: relative;\r\n}\r\n\r\n  .cassieImg{\r\n    margin-top: 180px;\r\n    position: absolute;\r\n    left: 8px;\r\n  }\r\nimg {\r\n  width: 75%;\r\n}\r\n\r\n  .artistText {\r\n    padding: 25px;\r\n    font-family: futura;\r\n    font-size: 13px;\r\n    margin-top: 450px;\r\n    /*font-weight: bold;*/\r\n  }\r\n\r\n}\r\n\r\n@media only screen and (max-width: 1400px) {\r\n  .cassieImg {\r\n    margin-top: 200px;\r\n    position: absolute;\r\n    left: 500px;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 375px) {\r\n\r\n  .artisthead2 {\r\n    padding-left: 20px;\r\n  }\r\n.artistText {\r\n  padding: 12px;\r\n}\r\n  .cassieImg{\r\n    margin-top: 180px;\r\n    position: absolute;\r\n    left: 0px;\r\n  }\r\n\r\n  img {\r\n    width: 70%;\r\n  }\r\n}\r\n@media only screen and (max-width: 414px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 15px;\r\n    padding-right: 10px;\r\n    height: 50%;\r\n    width: 65%;\r\n    margin-right: 10px;\r\n  }\r\n\r\n  .artisthead2 {\r\n    padding-left: 0px;\r\n    position: relative;\r\n  }\r\n\r\n  .cassieImg{\r\n    margin-top: 160px;\r\n    position: absolute;\r\n    left: 8px;\r\n  }\r\n  img {\r\n    width: 70%;\r\n  }\r\n\r\n  .artistText {\r\n    padding: 25px;\r\n    font-family: futura;\r\n    font-size: 12px;\r\n    margin-top: 450px;\r\n    /*font-weight: bold;*/\r\n  }\r\n\r\n}\r\n@media only screen and (max-width: 320px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 15px;\r\n    padding-right: 10px;\r\n    height: 50%;\r\n    width: 65%;\r\n    margin-right: 10px;\r\n  }\r\n\r\n  .artisthead2 {\r\n    padding-left: 0px;\r\n    position: relative;\r\n  }\r\n\r\n  .cassieImg{\r\n    margin-top: 160px;\r\n    position: absolute;\r\n    left: 8px;\r\n  }\r\n  img {\r\n    width: 60%;\r\n  }\r\n\r\n  .artistText {\r\n    padding: 25px;\r\n    font-family: futura;\r\n    font-size: 12px;\r\n    margin-top: 360px;\r\n    /*font-weight: bold;*/\r\n  }\r\n\r\n}\r\n", ""]);
+exports.push([module.i, ".artistNav {\r\n  height: 500px;\r\n  /*background-color: white;*/\r\n  background-image: url(\"https://dubdub37.github.io/Studio42/assets/img/final-fullW.png\");\r\n  /*padding-top: 100px;*/\r\n}\r\n\r\n.headshot1{\r\n  float: right;\r\n  padding-top: 15px;\r\n  padding-right: 120px;\r\n}\r\n\r\n.artisthead {\r\n  padding-left: 500px;\r\n  padding-top: 50px;\r\n}\r\n\r\n.cassieImg{\r\n  margin-top: 200px;\r\n  position: absolute;\r\n  left: 700px;\r\n}\r\n\r\n.artisthead2 {\r\n  padding-left: 465px;\r\n  padding-top: 0px;\r\n}\r\n\r\n.artistText {\r\n  padding: 25px;\r\n  font-family: futura;\r\n  font-size: 16px;\r\n  position: absolute;\r\n  margin-top: 300px;\r\n  padding-right: 500px;\r\n  padding-left: 75px\r\n  /*font-weight: bold;*/\r\n}\r\n\r\n\r\n\r\n\r\n@media only screen and (max-width: 1400px) {\r\n  .cassieImg {\r\n    margin-top: 200px;\r\n    position: absolute;\r\n    left: 500px;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 1024px) {\r\n  .cassieImg {\r\n    margin-top: 200px;\r\n    position: absolute;\r\n    left: 200px;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 575px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 15px;\r\n    padding-right: 10px;\r\n    height: 50%;\r\n    width: 65%;\r\n    margin-right: 20px;\r\n  }\r\n\r\n  .artisthead2 {\r\n    padding-left: 0px;\r\n    position: relative;\r\n  }\r\n\r\n  .cassieImg{\r\n    margin-top: 180px;\r\n    position: absolute;\r\n    left: 8px;\r\n  }\r\n  img {\r\n    width: 75%;\r\n  }\r\n\r\n  .artistText {\r\n    padding: 25px;\r\n    font-family: futura;\r\n    font-size: 13px;\r\n    margin-top: 450px;\r\n    /*font-weight: bold;*/\r\n  }\r\n\r\n}\r\n\r\n@media only screen and (max-width: 414px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 15px;\r\n    padding-right: 10px;\r\n    height: 50%;\r\n    width: 65%;\r\n    margin-right: 10px;\r\n  }\r\n\r\n  .artisthead2 {\r\n    padding-left: 0px;\r\n    position: relative;\r\n  }\r\n\r\n  .cassieImg{\r\n    margin-top: 160px;\r\n    position: absolute;\r\n    left: 8px;\r\n  }\r\n  img {\r\n    width: 70%;\r\n  }\r\n\r\n  .artistText {\r\n    padding: 25px;\r\n    font-family: futura;\r\n    font-size: 12px;\r\n    margin-top: 450px;\r\n    /*font-weight: bold;*/\r\n  }\r\n\r\n}\r\n@media only screen and (max-width: 375px) {\r\n\r\n  .artisthead2 {\r\n    padding-left: 20px;\r\n  }\r\n.artistText {\r\n  padding: 12px;\r\n}\r\n  .cassieImg{\r\n    margin-top: 180px;\r\n    position: absolute;\r\n    left: 0px;\r\n  }\r\n\r\n  img {\r\n    width: 70%;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 320px) {\r\n  .headshot1 {\r\n    float: right;\r\n    padding-top: 15px;\r\n    padding-right: 10px;\r\n    height: 50%;\r\n    width: 65%;\r\n    margin-right: 10px;\r\n  }\r\n\r\n  .artisthead2 {\r\n    padding-left: 0px;\r\n    position: relative;\r\n  }\r\n\r\n  .cassieImg{\r\n    margin-top: 160px;\r\n    position: absolute;\r\n    left: 8px;\r\n  }\r\n  img {\r\n    width: 60%;\r\n  }\r\n\r\n  .artistText {\r\n    padding: 25px;\r\n    font-family: futura;\r\n    font-size: 12px;\r\n    margin-top: 360px;\r\n    /*font-weight: bold;*/\r\n  }\r\n\r\n}\r\n", ""]);
 
 // exports
 
@@ -959,7 +963,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/navbar/navbar.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid\">\n<nav class=\"navbar navbar-inverse navbar-fixed-top\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n        <span class=\"sr-only\">Toggle navigation</span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"#\"><img src=\"assets/img/studioLogoSm.png\" style=\"position: absolute; top: 10px\"></a>\n    </div>\n    <div id=\"navbar\" class=\"collapse navbar-collapse\">\n      <ul class=\"nav navbar-nav floating\">\n        <li><a href=\"#\" style=\"color:white\"><span style=\"font-family: futura\">Contact Us</span></a></li>\n        <li><a href=\"#\" style=\"color:white\"><span style=\"font-family: futura\">Directions</span></a></li>\n        <li><a href=\"#\" style=\"color:white\"><span style=\"font-family: futura\">Our Loves</span></a></li>\n        <li><a href=\"#\" style=\"color:white\"><span style=\"font-family: futura\">Whatev's</span></a></li>\n      </ul>\n    </div><!--nav-collapse -->\n  </div>\n</nav>\n</div>\n\n"
+module.exports = "<div class=\"container-fluid\">\n<nav class=\"navbar navbar-inverse navbar-fixed-top\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n        <span class=\"sr-only\">Toggle navigation</span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"#\"><img src=\"assets/img/studioLogoSm.png\" style=\"position: absolute; top: 10px\"></a>\n    </div>\n    <div id=\"navbar\" class=\"collapse navbar-collapse\">\n      <ul class=\"nav navbar-nav floating\">\n        <li><a href=\"#\" style=\"color:white\"><span style=\"font-family: futura\">Contact Us</span></a></li>\n        <li><a href=\"#\" style=\"color:white\"><span style=\"font-family: futura\">Directions</span></a></li>\n        <li><a href=\"#\" style=\"color:white\" (click)=\"openDialog1()\" ><span style=\"font-family: futura\">Our Likes</span></a></li>\n        <li><a href=\"#\" style=\"color:white\"><span style=\"font-family: futura\">Whatev's</span></a></li>\n      </ul>\n    </div><!--nav-collapse -->\n  </div>\n</nav>\n</div>\n\n"
 
 /***/ }),
 
@@ -968,6 +972,8 @@ module.exports = "<div class=\"container-fluid\">\n<nav class=\"navbar navbar-in
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_material__ = __webpack_require__("../../../material/esm5/material.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ourlikes_ourlikes_component__ = __webpack_require__("../../../../../src/app/ourlikes/ourlikes.component.ts");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NavbarComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -979,10 +985,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
+
 var NavbarComponent = (function () {
-    function NavbarComponent() {
+    function NavbarComponent(dialog) {
+        this.dialog = dialog;
     }
     NavbarComponent.prototype.ngOnInit = function () {
+    };
+    NavbarComponent.prototype.openDialog1 = function () {
+        this.dialog.open(__WEBPACK_IMPORTED_MODULE_2__ourlikes_ourlikes_component__["a" /* OurlikesComponent */]);
+    };
+    NavbarComponent.prototype.onClick = function () {
+        this.animationClicked = true;
     };
     return NavbarComponent;
 }());
@@ -992,10 +1007,72 @@ NavbarComponent = __decorate([
         template: __webpack_require__("../../../../../src/app/navbar/navbar.component.html"),
         styles: [__webpack_require__("../../../../../src/app/navbar/navbar.component.css")]
     }),
-    __metadata("design:paramtypes", [])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_material__["d" /* MatDialog */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_material__["d" /* MatDialog */]) === "function" && _a || Object])
 ], NavbarComponent);
 
+var _a;
 //# sourceMappingURL=navbar.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/ourlikes/ourlikes.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/ourlikes/ourlikes.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  okajlkfjaldjsflajsdfkjasdkfjl\n  asdflkjalkdjsflaksdjflkjasdf\n  aldjsflkjasdflkakdsfj\n  aldjsfljasdflljsadfjlf\n</p>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/ourlikes/ourlikes.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OurlikesComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var OurlikesComponent = (function () {
+    function OurlikesComponent() {
+    }
+    OurlikesComponent.prototype.ngOnInit = function () {
+    };
+    return OurlikesComponent;
+}());
+OurlikesComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-ourlikes',
+        template: __webpack_require__("../../../../../src/app/ourlikes/ourlikes.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/ourlikes/ourlikes.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], OurlikesComponent);
+
+//# sourceMappingURL=ourlikes.component.js.map
 
 /***/ }),
 
